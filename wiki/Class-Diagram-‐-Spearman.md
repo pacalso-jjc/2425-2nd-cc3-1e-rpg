@@ -4,15 +4,15 @@ title: Spearman
 ---
 classDiagram
     note "From Duck till Zebra"
-    Animal <|-- Duck
+    Spearman <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int number
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
+    Spearman <|-- Fish
+    Spearman <|-- Zebra
+    Spearman : +int number
+    Spearman : +String gender
+    Spearman: +isMammal()
+    Spearman: +mate()
+    class Spearman{
         +String beakColor
         +swim()
         +quack()
