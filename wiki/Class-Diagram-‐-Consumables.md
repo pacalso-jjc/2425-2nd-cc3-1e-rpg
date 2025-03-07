@@ -2,7 +2,7 @@
 title: Consumables
 ---
 classDiagram
-    note "From Duck till Zebra"
+    note "From Cat till Capybara"
     Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
     Animal <|-- Fish
