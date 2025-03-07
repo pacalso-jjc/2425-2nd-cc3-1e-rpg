@@ -64,4 +64,4 @@
 - **Backstory:**
   - When Thomasia entered the walls of the capital and its followers preached their words of faith, their missives, and their wisdoms, not all within the city accepted them with open arms. One of many religions that opposed the Thomasian faith is the Cult of Bhaal, a secretive society fanatically devoted to serving Bhaal, a pagan "God of Murder". Orin was a child of such, but upon being conceived at the altar by the previous leader of the cult, it is said that she spoke a prophecy so frightful and horrid that the other members were compelled to think that she was the true child of Bhaal himself.
 
-  ##Other NPC##
+  ##Other NPCs##
