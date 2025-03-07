@@ -12,17 +12,5 @@ classDiagram
     Spearman : +String gender
     Spearman: +isMammal()
     Spearman: +mate()
-    class Spearman{
-        +String beakColor
-        +swim()
-        +quack()
-    }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
-    }
-    class Zebra{
-        +bool is_wild
-        +run()
-    }
+     
 ```
