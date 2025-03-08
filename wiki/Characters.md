@@ -1,3 +1,12 @@
+# Player
+
+### **The Player (Great Vagabond Knight)**
+- **Role:** THe player
+- **Personality:** Not much is known about the fabled Great Vagabond Knight. For all we know, they could be nothing more than an armoured serial killer, a noble paladin, or a dreaded heretic banished from their capital city. What we do know is that they have come to Yrmania for a reason, and that reason would resurface as our tale unfolds.
+- **Motivation:** Unknown. Following the events of the game, we do not know if they want to aid the state in its independence, follow Ahmed into battle, defend the state under the banner of Thomasia, or simply bathe the capital in blood. It is up to the player.
+- **Backstory:**
+  - In the early years of the great crusades by the Thomasian faith, there lived a Great Vagabond Knight. Not much is known about this figure, but they are famous for being an unstoppable nomadic force that grants victory to whichever side they see fit, and a quick end to those that are against them. What is known about this mysterious entity is that they have been given the grace and an artifact from the crown itself, and then tasked or maybe even cursed to wander the Middlelands in search for their artifacts' rightful owner.
+
 # NPC
 
 ## Faction NPCs
@@ -64,4 +73,4 @@
 - **Backstory:**
   - When Thomasia entered the walls of the capital and its followers preached their words of faith, their missives, and their wisdoms, not all within the city accepted them with open arms. One of many religions that opposed the Thomasian faith is the Cult of Bhaal, a secretive society fanatically devoted to serving Bhaal, a pagan "God of Murder". Orin was a child of such, but upon being conceived at the altar by the previous leader of the cult, it is said that she spoke a prophecy so frightful and horrid that the other members were compelled to think that she was the true child of Bhaal himself.
 
-  ##Other NPCs##
+## Other NPCs
