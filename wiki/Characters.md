@@ -1,7 +1,7 @@
 # Player
 
 ### **The Player (Great Vagabond Knight)**
-- **Role:** THe player
+- **Role:** The player
 - **Personality:** Not much is known about the fabled Great Vagabond Knight. For all we know, they could be nothing more than an armoured serial killer, a noble paladin, or a dreaded heretic banished from their capital city. What we do know is that they have come to Yrmania for a reason, and that reason would resurface as our tale unfolds.
 - **Motivation:** Unknown. Following the events of the game, we do not know if they want to aid the state in its independence, follow Ahmed into battle, defend the state under the banner of Thomasia, or simply bathe the capital in blood. It is up to the player.
 - **Backstory:**
@@ -50,7 +50,47 @@
   - "Symbiosis:Thomasia/The Legion/Diane" - Depending on the player's current allegiance, their respective faction vendor may send them to this fort to secure the support of the massive army stationed there. Stalker Svignee will request the player to assassinate Jeera and replace her with a Thomasian sympathizer, Ahmed will stage a siege, and Diane will ask the player to request her aid diplomatically.
 - **Backstory:**
   - Despite being respected by the capital and most of Yrmania as the pseudo-head of the army, Jeera is actually from the Hammerfell, where the rights of women were reduced to that of mere pets or possessions. Jeera narrowly escaped this cruel prospect and fled first to Kent and then finally to Yrmania where she enlisted in the state's local military. She proved a great soldier, but after she was gravely injured during a previous assault on the capital, she became an equally great and wise quartermaster.
+  
+### **Old Sage Nik (Fort Faroth War Counsellor)**
+- **Role:** Hides the Vermin Key (the main quest item that the Player is tasked to deliver check main story page)
+- **Allegiance:** Neutral
+- **Personality:** Is an experienced, wise, and old war counsellor who started working as the war counsellor ever since the creation of the state of Yrmania.
+- **Motivation:** To make sure the Vermin Key falls onto the right hands.
+- **Quest Hook:**  
+  - "In the Dark" - After confronting the thief that stole the Vermin Key from the player, it is revealed that Old Sage Nik hired the thief to bring him the Vermin Key, with the player being lead to Fort Faroth as a clue to look for Nik.
+- **Backstory:**
+  - Old Sage Nik was a war counsellor and military advisor to the royal family and the state as a whole ever since its creation and he has been serving for upwards of half a century. During the state's infancy, he was brought news of the creation of a highly dangerous and experimental defense system constructed by the royal family itself in collaboration with a foreign state. The key to activate this defense system is none other than the Vermin Key that the player was tasked by the Queen herself to deliver to Princess Diane. Nik feared greatly for the safety of the state and took matters into his own hands and secured the key with himself.
+  
+### **King Bennett (Friend of the People)**
+- **Role:** Is the de-facto leader of the chaotic and poverty-ridden slums of Yrmania
+- **Allegiance:** Neutral
+- **Personality:** A good-oriented leader of the people who also happens to be violent and threatening to the opposition, especially to people of noble backgrounds.
+- **Motivation:** To improve the quality of life for all the people in the slums and make sure nobles stop exploiting the people that reside in the area.
+- **Quest Hook:**  
+  - "I Am What I Am:Thomasia/TheLegion/Diane" - After resolving the situation at Fort Faroth, the player will be informed that Ahmed has started a pseudo-alliance or negotiations with the people in the slums, and will be sent there by their respective faction vendor. Stalker Svignee will task the player with killing Bennett and his closest followers to crush the possibility of rebellion, Diane request the player to talk to Bennett and promise aid after the war, and Ahmed will task the player to help King Bennett with miscellaneous tasks until he aggrees to side with Ahmed's Legion.
+- **Backstory:**
+  - Much like Princess Diane herself, King Bennett lived and grew in the streets of the slums in Yrmania, but met a much less prosperous and desirable future than the princess. As he aged, he grew more and more involved with the streets, participating in criminal activity, thievery, and amassing an intense disdain for the nobility, blaming them for the onset poverty and problems that normal people in the state experience on a daily basis. This eventually progressed into him straight up campaigning against the nobility and the royal family, gaining a huge support and following from everyday people in the slums, dubbed King by these people who yearn for change.
 
+### **Wenduag (Wandering Huntress)**
+- **Role:** Wilderness bounty vendor
+- **Allegiance:** Neutral
+- **Personality:** A laid-back but efficient and extremely skilled huntress.
+- **Motivation:** To hunt and provide the people of Yrmania with the entertainment and thrill of hunting.
+- **Quest Hook:**  
+  - "Over the Garden Wall" - When the player enters the Wilderness for the first time, they are greeted by Wenduag, who offers them bounties wherein they hunt a certain amount of a certain animal for rewards.
+- **Backstory:**
+  - Not much at all is known about Wenduag. She lives in isolation, hunts in isolation, and is never seen in the civilized parts of the state. All is known is that whenever she is seen, she is always on the hunt.
+  
+### **Magitrate Ken Nough (Lower District Lawman)**
+- **Role:** Lower district bounty vendor
+- **Allegiance:** Neutral
+- **Personality:** The wise but irritable and easily agitated lawkeeper of the lower district.
+- **Motivation:** To protect and make sure the people of the lower district live in peace and within the law.
+- **Quest Hook:**  
+  - "All Opposed" - When the player enters the Lower District for the first time, they are confronted by the Magistrate who ask their purpose for visiting the district. They can then be visited when he returns to his office for lower district bounties.
+- **Backstory:**
+  - Magistrate Ken Nough was a failure of a knight who then fell down the ranks until he became a simple lawman in service to the lower district.
+  
 ## Minor Faction NPCs
 
 ### **Senior Knight Hans Gunther Reinhardt (Head Knight of the Upper City)**
