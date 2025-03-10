@@ -1,5 +1,5 @@
 ```mermaid
----
+
 title: Ahmed
 classDiagram
     class ProphetAhmed {
