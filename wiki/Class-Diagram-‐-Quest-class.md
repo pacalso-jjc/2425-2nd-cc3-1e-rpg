@@ -1,13 +1,16 @@
 classDiagram
-class Quest {
-    - int questID
-    - String title
-    - String description
-    - String status
-    - int reward
-    - String objective
+    class Quest {
+        -int questID
+        -String title
+        -String description
+        -String status
+        -Reward reward
+        +complete() void
+    }
 
-    + void startQuest()
-    + void completeQuest()
-    + String getQuestInfo()
-}
+    class Reward {
+        -int gold
+        -List~String~ items
+        +addGold(amount int) void
+        +addItem(item String) void
+    }
