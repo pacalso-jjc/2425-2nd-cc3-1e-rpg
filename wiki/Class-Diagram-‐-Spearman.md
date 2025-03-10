@@ -3,26 +3,45 @@
 title: Spearman
 ---
 classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int number
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
+    class Character {
+        +String allegiance
+        +String name
+        +String sex      
+        +int hp
+        +int level
+        +int exp
+        +int strength
+        +int speed
+        +int defense
+        +int stamina
+        +int charisma
+        +int currency
+        +void dealDamage(Character character, int amount)
+        +void takeDamage(int amount)
+        +boolean isAlive()
+        +void move()
     }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
+
+    class Spearman {
+        +int spearSkillLevel
+        -Spear equippedSpear
+        +void Attack()
+        +void Block()
+        +void Counter()
+        +void Dodge()
     }
-    class Zebra{
-        +bool is_wild
-        +run()
+
+    class Spear {
+        +String name
+        +int damage
+        +float range
     }
-```
+
+    class Classification {
+        +string Type
+        +list <weapon> availableGear
+    }
+
+    Spearman <|-- Classification : Inheritance
+    Character <|-- Spearman : Inheritance
+    Spearman o-- Spear : Composition
