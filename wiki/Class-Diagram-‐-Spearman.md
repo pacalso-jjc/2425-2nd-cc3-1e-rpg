@@ -28,7 +28,7 @@ classDiagram
         +void Attack()
         +void Block()
         +void Counter()
-        + void Dodge()
+        +void Dodge()
     }
 
     class Spear {
