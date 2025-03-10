@@ -1,0 +1,72 @@
+classDiagram
+    class CombatManager {
+        +executeAction(action: Actions)
+        +handleDeath()
+        -isAlive: boolean
+        -canRetry: boolean
+    }
+
+    class Actions {
+        +execute()
+    }
+
+    class Attacks {
+        +execute()
+        +applyAttack()
+        +processCriticalHit()
+        -hasEnoughStamina: boolean
+        -attackOutcome: String
+        -isCritical: boolean
+    }
+
+    class NormalAttack {
+        +execute()
+    }
+
+    class HeavyAttack {
+        +execute()
+    }
+
+    class SkillAttack {
+        +execute()
+    }
+
+    class Consume {
+        +execute()
+        +applyEffect()
+        -hasPotions: boolean
+    }
+
+    class HealthPotion {
+        +execute()
+        -isFullHealth: boolean
+    }
+
+    class StaminaPotion {
+        +execute()
+        -isFullStamina: boolean
+    }
+
+    class Defend {
+        +execute()
+        +processDefense()
+        +processSkillDefense()
+        -isSuccessful: boolean
+        -takesDamage: boolean
+        -reducedDamageFromSkill: boolean
+    }
+
+    class Retreat {
+        +execute()
+    }
+
+    CombatManager --> Actions
+    Actions --> Attacks
+    Actions --> Consume
+    Actions --> Defend
+    Actions --> Retreat
+    Attacks --> NormalAttack
+    Attacks --> HeavyAttack
+    Attacks --> SkillAttack
+    Consume --> HealthPotion
+    Consume --> StaminaPotion
