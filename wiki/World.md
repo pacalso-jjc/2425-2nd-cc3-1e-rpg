@@ -1,4 +1,4 @@
-Class-Diagram--World <|-- Capital : extends
+Class-Diagram--World.md <|-- Capital : extends
 World <|-- City : extends
 World <|-- Village : extends
 World <|-- Region : extends
