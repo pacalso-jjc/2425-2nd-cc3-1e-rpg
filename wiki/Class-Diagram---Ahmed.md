@@ -1,6 +1,7 @@
 ```mermaid
-
-title: Ahmed
+---
+title: Prophet Ahmed
+---
 classDiagram
     class ProphetAhmed {
         +String name
@@ -20,4 +21,3 @@ classDiagram
         +spreadFaith() void
         +captureTerritory() void
     }
-  
