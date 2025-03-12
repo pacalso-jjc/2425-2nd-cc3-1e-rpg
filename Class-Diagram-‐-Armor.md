@@ -6,5 +6,3 @@ classDiagram
     class Armor {
         +int defense
     }
-    
-    Armor <|-- Item : Inheritance
