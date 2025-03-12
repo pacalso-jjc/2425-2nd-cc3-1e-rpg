@@ -1,8 +1,10 @@
 classDiagram
     class CombatManager {
-        -canRetry: boolean
-        +executeAction(action: Actions)
-        +handleDeath()
+	-player: Character
+	-enemy: Character
+	+startCombat(Character p1, Character p2)
+	+playerTurn()
+	+enemyTurn()
     }
 
     class Actions {
