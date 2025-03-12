@@ -4,13 +4,13 @@ title: Ahmed Class
 ---
 classDiagram
     class ProphetAhmed {
-        +String name
-        +String role
-        +String factionAllegiance
-        +String rank
-        +List quests
-        +List questHooks
-        +String currentLocation
+        -String name
+        -String role
+        -String factionAllegiance
+        -String rank
+        -List quests
+        -List questHooks
+        -String currentLocation
         +giveQuest() Quest
         +offerItem(item: Item) void
         +interact() void
