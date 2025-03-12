@@ -1,11 +1,12 @@
+```mermaid
 ---
 title: Consumables
 ---
 classDiagram
-    note "From Cat till Capybara"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
+    note "Associated with the Player Class"
+    Consumables <|-- FoodItem
+    //note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Consumables <|-- Fish
     Animal <|-- Zebra
     Animal : +int age
     Animal : +String gender
