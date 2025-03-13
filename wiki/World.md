@@ -1,131 +1,136 @@
-Class-Diagram--World.md <|-- Capital : extends
-World <|-- City : extends
-World <|-- Village : extends
-World <|-- Region : extends
+---
+title: World
+---
 
-Region o-- Forest : contains
-Region o-- Ruin : contains
-Region o-- Shrine : contains
-Capital *-- Fort : protects
-Village -- Forest : borders
+classDiagram
+    Class-Diagram--World.md <|-- Capital : extends
+    World <|-- City : extends
+    World <|-- Village : extends
+    World <|-- Region : extends
+    
+    Region o-- Forest : contains
+    Region o-- Ruin : contains
+    Region o-- Shrine : contains
+    Capital *-- Fort : protects
+    Village -- Forest : borders
+    
+    class World {
+        - String name
+        - int width
+        - int length
+        - String description
+        - String environment
 
-class World {
--String name
--int width
--int length
--String description
--String environment
+        + void describeWorld()
+        + int calculateArea()
+        + void changeWeather(String newWeather)
+        + void updateDescription(String newDesc)
+    }
 
-+void describeWorld()
-+int calculateArea()
-+void changeWeather(String newWeather)
-+void updateDescription(String newDesc)
-}
+    class Region {
+        - String regionName
+        - String elementType
+        - String musicTheme
+        - int monsterLevelRange
 
-class Region {
--String regionName
--String elementType
--String musicTheme
--int monsterLevelRange
+        + void describeRegion()
+        + void setElement(String element)
+        + void spawnMonsters()
+        + void playMusic()
+    }
 
-+void describeRegion()
-+void setElement(String element)
-+void spawnMonsters()
-+void playMusic()
-}
+    class Capital {
+        - String capitalName
+        - int population
+        - String rulerName
+        - boolean hasCastle
+        - int goldReserve
+        - int defenseLevel
 
-class Capital {
--String capitalName
--int population
--String rulerName
--boolean hasCastle
--int goldReserve
--int defenseLevel
+        + void describeCapital()
+        + int calculatePopulationDensity()
+        + void fortifyCity()
+        + void collectTaxes()
+        + void holdFestival()
+    }
 
-+void describeCapital()
-+int calculatePopulationDensity()
-+void fortifyCity()
-+void collectTaxes()
-+void holdFestival()
-}
+    class City {
+        - String cityName
+        - int population
+        - int guardCount
+        - int marketplaceCount
+        - boolean hasWalls
 
-class City {
--String cityName
--int population
--int guardCount
--int marketplaceCount
--boolean hasWalls
+        + void describeCity()
+        + int calculatePopulationDensity()
+        + void patrolCity()
+        + void hostTradeFair()
+        + void repairWalls()
+    }
 
-+void describeCity()
-+int calculatePopulationDensity()
-+void patrolCity()
-+void hostTradeFair()
-+void repairWalls()
-}
+    class Village {
+        - String villageName
+        - int population
+        - boolean hasBlacksmith
+        - boolean hasInn
+        - int farmlandSize
 
-class Village {
--String villageName
--int population
--boolean hasBlacksmith
--boolean hasInn
--int farmlandSize
+        + void describeVillage()
+        + int calculateArea()
+        + void hostMarketDay()
+        + void upgradeBlacksmith()
+        + void harvestCrops()
+    }
 
-+void describeVillage()
-+int calculateArea()
-+void hostMarketDay()
-+void upgradeBlacksmith()
-+void harvestCrops()
-}
+    class Forest {
+        - String forestName
+        - int treeCount
+        - boolean hasMonsters
+        - String dominantCreature
+        - int dangerLevel
 
-class Forest {
--String forestName
--int treeCount
--boolean hasMonsters
--String dominantCreature
--int dangerLevel
+        + void describeForest()
+        + int calculateTreeDensity()
+        + void spawnCreatures()
+        + void clearPathway()
+        + void setTrap()
+    }
 
-+void describeForest()
-+int calculateTreeDensity()
-+void spawnCreatures()
-+void clearPathway()
-+void setTrap()
-}
+    class Fort {
+        - String fortName
+        - int soldierCount
+        - int wallStrength
+        - int weaponStockpile
+        - boolean hasMoat
 
-class Fort {
--String fortName
--int soldierCount
--int wallStrength
--int weaponStockpile
--boolean hasMoat
+        + void describeFort()
+        + int calculateDefenseStrength()
+        + void repairWalls()
+        + void trainSoldiers()
+        + void launchCatapult()
+    }
 
-+void describeFort()
-+int calculateDefenseStrength()
-+void repairWalls()
-+void trainSoldiers()
-+void launchCatapult()
-}
+    class Shrine {
+        - String shrineName
+        - String deity
+        - String blessing
+        - boolean isSealed
 
-class Shrine {
--String shrineName
--String deity
--String blessing
--boolean isSealed
+        + void describeShrine()
+        + void unlockShrine()
+        + void activateBlessing()
+        + void sealShrine()
+    }
 
-+void describeShrine()
-+void unlockShrine()
-+void activateBlessing()
-+void sealShrine()
-}
+    class Ruin {
+        - String ruinName
+        - int treasureCount
+        - boolean hasBoss
+        - String puzzleType
+        - int trapCount
 
-class Ruin {
--String ruinName
--int treasureCount
--boolean hasBoss
--String puzzleType
--int trapCount
-
-+void exploreRuin()
-+void solvePuzzle()
-+void fightBoss()
-+void collectTreasure()
-}
+        + void exploreRuin()
+        + void solvePuzzle()
+        + void fightBoss()
+        + void collectTreasure()
+    }
