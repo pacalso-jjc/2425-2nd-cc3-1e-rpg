@@ -83,8 +83,9 @@ You pick up everything you need and the person comes back. “Oh good, you’re 
 
 ### **Scene 1:**
 
-	From the barracks, you see the way towards the place has been cleared. You continue your walk. You encounter a very busy place full of parchments and such. It seems that you’re in a courier service.
-The player is free to ask the NPCs.
+From the barracks, you see the way towards the place has been cleared. You continue your walk. You encounter a very busy place full of parchments and such. It seems that you’re in a courier service.
+
+**The player is free to ask NPCs.**
 
 - **NPCs will answer the following:**
 
