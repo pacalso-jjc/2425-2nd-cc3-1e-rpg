@@ -8,3 +8,4 @@ class NPC {
     -List~String~ availableQuests
     +void interact()
 }
+NPC <|-- Character : Inheritance
