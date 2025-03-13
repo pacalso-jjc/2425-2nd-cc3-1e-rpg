@@ -1,6 +1,6 @@
 # Main Quest
 
-## **Prologue/Quest 1: Reawakening**
+## **Prologue/Quest 1: "Reawakening"**
 
 It’s noon, and you have just been assigned a task. Usually, you finish tasks as quickly as they have been given, but It’s hectic out there, and sometimes you need a little drink. What could go wrong?
 
@@ -42,7 +42,7 @@ The doctor then picks up a mirror and shows it to you. You see a figure, but you
 You aren’t certain if what you see in the mirror is really you or not, but it’s who you are now.
 The doctor hypothesized that the injury may have made you amnesiac. But that doesn’t matter. What matters is that you survived, and he thanks the person that carried you to the hospital whoever they may be. In the meantime, the doctor releases you from the hospital. He asks you to try exploring. Maybe you can remember something from exploring the place.
 
-## **Scene 3**
+### **Scene 3**
 
 You are now outside the hospital and are now free to roam and explore. Everyone seems to be busier than usual, especially the number of soldiers marching outside the capital.
 
@@ -77,7 +77,7 @@ Emerging from the pathway, you see the barracks in front of you. A person recogn
 
 You pick up everything you need and the person comes back. “Oh good, you’re all ready. Now, leave. I still have a lot of things to tend to.” Another commotion happens and he screams at the door. “WILL YOU PEOPLE WAIT YOUR TURN”. Before any trouble begins, you immediately leave the barracks and continue your task of finding the place.
 
-## **End of Prologue/Quest 1**
+### **End of Prologue/Quest 1**
 
 ## **Quest 2: "Once Again"**
 
@@ -146,7 +146,7 @@ You exit out of the building and see a crowd of people gathering somewhere.
 
 You follow along the crowd to the plaza and see the Legionnaire alongside a couple of guards and an executioner on a wooden platform. The Legionnaire is bound on a pillory. The crowd throws debris at the Legionnaire whilst being called names and such. “This state’s salvation is at hand! The Prophet alongside his disciples will cleanse the lands of weakness, and from the ashes, a state pure and free from corruption will arise!”, shouted the Legionnaire. The crowd boos the Legionnaire but you can feel a change of emotion in the air. It is anger, with a tinge of fear. “Worry not! We will all be free of suffering by His will! Long live the prophet! Long live the Legio-”. Before the Legionnaire finishes his last words, the executioner’s axe swiftly cuts down his neck followed by a thud on the platform. The Legionnaire is dead, and the crowd angers still. You immediately leave the plaza, and focus on the matter on your hand.
 
-###**End of Quest 2**
+### **End of Quest 2**
 
 still in progress :D
 
