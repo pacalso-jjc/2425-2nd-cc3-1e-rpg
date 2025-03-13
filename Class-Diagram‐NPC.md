@@ -2,7 +2,7 @@
 ---
 title: NPC
 ---
-cclassDiagram
+classDiagram
 class NPC {
     -int levelOfHostility
     -List~String~ availableQuests
