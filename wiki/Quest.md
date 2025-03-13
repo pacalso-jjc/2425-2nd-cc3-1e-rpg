@@ -69,7 +69,7 @@ With the directions given you try to get to the place, but groups of people bloc
 
 Suddenly, a menacing armored person confronts you halfway through the narrow pathway. “You”, he says in an authoritative voice, pointing his sword at you. “You’re the one who barely survived the attack at the village”. “People around here have been talking. That you have been very lucky. But me? I think you’re more than lucky. You have been chosen to be in a bigger role than you can imagine.” He plants his sword in the ground. “Meet me in the Pilgrimage Site. We will discuss this further when the time comes.” You hear a commotion behind you, and the moment you look back, the person disappears.
 
-## **Scene 4 (Class Creation)**
+### **Scene 4 (Class Creation)**
 
 Emerging from the pathway, you see the barracks in front of you. A person recognizes you from the barracks and immediately grabs you. “No time to waste! You’re already behind schedule!”. He takes you into the barracks and puts you into a room full of weapons and armor. “For someone who has an important task, you sure are late! Here, choose whatever you want or need. You are going to need it for that task. Not to mention, a lot of volunteers have been draining the barracks of equipment”. You hear something outside and the person immediately screams, “Give me a moment, I’m coming!”, storming outside in a hurry.
 
@@ -78,6 +78,7 @@ Emerging from the pathway, you see the barracks in front of you. A person recogn
 You pick up everything you need and the person comes back. “Oh good, you’re all ready. Now, leave. I still have a lot of things to tend to.” Another commotion happens and he screams at the door. “WILL YOU PEOPLE WAIT YOUR TURN”. Before any trouble begins, you immediately leave the barracks and continue your task of finding the place.
 
 ### **End of Prologue/Quest 1**
+
 
 ## **Quest 2: "Once Again"**
 
@@ -148,6 +149,191 @@ You exit out of the building and see a crowd of people gathering somewhere.
 You follow along the crowd to the plaza and see the Legionnaire alongside a couple of guards and an executioner on a wooden platform. The Legionnaire is bound on a pillory. The crowd throws debris at the Legionnaire whilst being called names and such. “This state’s salvation is at hand! The Prophet alongside his disciples will cleanse the lands of weakness, and from the ashes, a state pure and free from corruption will arise!”, shouted the Legionnaire. The crowd boos the Legionnaire but you can feel a change of emotion in the air. It is anger, with a tinge of fear. “Worry not! We will all be free of suffering by His will! Long live the prophet! Long live the Legio-”. Before the Legionnaire finishes his last words, the executioner’s axe swiftly cuts down his neck followed by a thud on the platform. The Legionnaire is dead, and the crowd angers still. You immediately leave the plaza, and focus on the matter on your hand.
 
 ### **End of Quest 2**
+
+## **Quest 3: "Finders Keepers"**
+
+### **Scene 1:**
+
+The player can ask around the town whether they know something about the Caravan Company.
+
+- **The NPCs will answer the following:**
+	- **They’re a private company**
+	- **They’re the ones who handle discreet operations**
+	- **They’re usually very hard to find**
+
+**Talking to all the NPCs will progress the quest. The final NPC will give the player a big hint:**
+
+- “If you saw someone who bears their emblem, they’re probably nearby”
+
+You remember that the person who carried you to the hospital said something about someone discreetly taking something from you when you were unconscious.
+
+With knowledge of the mysterious Company, you venture out of the capital to investigate even further. Starting with their last known appearance: Wuthering.
+
+You immediately went to the village, hoping that you would find any clues.
+
+### **Scene 2:**
+
+###**Wuthering:**
+
+You return to the town where the invasion began. Wuthering. Once it was a town of life. Now, it's a charred mess of buildings and mounds of corpses. A town of lifelessness and death. You can see survivors weeping and children wandering around calling for their mothers and fathers.
+
+- **Asking NPCs in the area will answer the following:**
+
+	- **The Legion burned the place to the ground**
+	- **Where was Thomasia when the village fell (I hope someone gets this)**
+	- **It’s now dangerous around here now that the Legion’s encampment is set nearby.**
+
+**Only one NPC will progress the quest.**
+
+You see the tavernkeep kneeling over a burning building. He immediately recognizes you from before the attack while you were very drunk.
+
+You ask him if he remembers what you did before you got drunk and were you carrying anything before the attack. He tries and remembers that you were meeting with someone in the tavern before getting knee-deep in the mead. He also remembers that you were carrying what looks like a courier’s bag before dragging yourself out of the tavern. He exclaimed and apologized that amidst the chaos, he cannot help you get to safety.
+
+- **Asking him about the Caravan Company will lead you to the direction of these 3 places:**
+	- **Thomasian Pilgrimage Site**
+	- **Summonwater Village**
+	- **Heretic’s Tower**
+
+He will also give you the emblem as he found it somewhere in mud while the village was still being attacked.
+
+You thank the tavernkeep and continue your journey.
+
+**The Player is now open to explore anywhere. Though some can only be entered whenever they have done a particular task such as saving the Legionnaire in the Prologue giving you access to the Legion of Ahmed’s Encampment, or when the story permits them to.**
+
+**For now, the player can only visit the three places where the caravan can be found.**
+
+- **The caravan can be found once in these three places at random:**
+	- **Somewhere in the Thomasia Pilgrimage Site**
+	- **Summonwater Village**
+	- **Outside of Heretic’s Tower**
+
+**Though the player will not know where they actually are unless they ask around the places.**
+
+###**Thomasia Pilgrimage Site:**
+
+You visit the site in hopes that you will find a trace of the Company.
+
+The Thomasia Pilgrimage Site. People often believe that pilgrimage is one of the ways to show your faith to a religion. “To strengthen the bond with your god,” you must go on a long and arduous journey to sacred sites. This is one of them, but you’re here for something else.
+
+You always thought that these sites are not that crowded, but you guessed wrong. You can’t discern between people of Thomasian and people who are not. Ever since the start of the wars, people have been flocking to pilgrimage sites to prove that they are worthy of the love of their god. That, or they are just scared of the punishment that the other religions are carrying out to those who don't have one.
+
+- **Asking the NPCs will answer the following:**
+	- **Their journey to this site has been very arduous especially since the start of the wars**
+	- **They’re here to “prove their fate”, but it can be seen that they are only doing it to avoid punishment.**
+
+**The last NPC asked will continue the quest**
+
+You asked a follower of Thomasia if they have seen anyone who bears the emblem of the Caravan, while also showing the emblem itself
+
+**If the Company is in this place, proceed to the bottom portion of the quest after the Outside of Heretic’s Tower. If not, continue.**
+
+She says that she saw a caravan going in the direction of Summonwater and Heretic’s Tower. Other than that, she didn’t see anyone as of now bearing the emblem and apologized.
+
+You thank her and continue your task to find the Company.
+
+###**Summonwater Village:**
+
+You enter the village in hopes that you will find a trace of the Company.
+
+Upon entering the village you expect it to be bustling with people only to be met with empty stalls and militia wandering around the roads. “Where have they all gone to?”, you ask yourself.
+
+- **Knocking on doors will give you the following answers**
+	- **They will ask if it’s safe to go outside now**
+	- **They will shoo the player away**
+	- **They will ask if you are a wandering seller**
+
+**A local militia will approach you and continue the story.**
+
+A local militia took notice of your disturbance to the people and asked you your business. You answer that you’re confused about what is happening and where the people are. She answers that the town has been paranoid ever since the attack on the neighboring village and has been mandated to stay in their houses for the time being.
+
+You pull the emblem out of your pocket and ask her if she saw anyone who bears the emblem of the Caravan.
+
+**If the Company is in this place, proceed to the bottom portion of the quest after the Outside of Heretic’s Tower. If not, continue.**
+
+She says that she saw a caravan stop by earlier but didn’t know where they went. She hypothesizes that they may have gone to the direction of the Pilgrimage Site or the Heretic’s Tower.
+
+You thank the soldier and she returns to her post. You continue your task of finding the Company elsewhere.
+
+### **Outside of Heretic’s Tower:**
+
+You enter the area of the infamous Heretic’s Tower in hopes that you will find a trace of the Company.
+
+This place is said to have a dark history behind it. No one knows why and how it came to be, but it is advised to stay away from the building itself. Nevertheless, you entered the grounds of the infamous tower.
+
+You see a small group of militia guarding the area of the tower itself. Who would’ve thought that this place is still being guarded? It does raise some questions but you focus on the task instead.
+
+- **Asking the NPCs will answer the following:**
+	- **The tower is off limits**
+	- **No, they do not know the history behind this tower too**
+
+**After exhausting the dialogue options, the story will continue
+
+You ask the militia if they have seen someone who bears the emblem you are currently showing.
+
+The militia points to their scout.
+
+**If the Company is in this place, proceed to the bottom portion of the quest after the Outside of Heretic’s Tower. If not, continue.**
+
+The scout answers that they have not seen anyone nor have they encountered anyone who bears the emblem. Though she notes that she saw what looks like a caravan going in the direction of Summonwater and the Pilgrimage Site.
+
+You thank the scout but before you can leave she stops you and asks for her payment. Though she immediately says that it was a joke and you continue your business finding the Company.
+
+**If the Caravan Company is in the vicinity:**
+
+She remembers someone passing by who bears the symbol. They point the direction of where the person went and you immediately follow.
+
+### **Scene 3:**
+
+The place points to a somewhat vegetated area covered by trees and bushes. They do not excel in hiding that well, kind of, but they are a service. You can’t offer your services if no one can find you, can they now?
+
+Emerging from the bushes, you see tents set up alongside horses. A person comes out of the tent that bears the emblem of the Company. You immediately deduced that you have found the Company. The question now is: Will they comply, or will you have to force it out of them?
+
+You wait until the cloaked figure exits the vicinity and you discreetly enter the tent.
+
+You see a small table with a map in the middle. From the table, you see someone rummaging through documents.
+
+You get his attention and he immediately snaps at you. “Oh, a new customer. You have pretty keen senses for someone who can find us. So, how can we help you? Do you need to acquire something from someone? Peruse our catalogs? Or something else that you have in your mind?”. You ask the person for a package. “A package? You must’ve confused us for a courier service.”
+
+- **The player can now choose how they will get the information:**
+- **State your purpose - a secret to a secret organization. You say that you’re here to retrieve a package sent by the Queen herself. The person laughs and belittles you for your embarrassing attempt. Although the person’s emotion changes upon showing the crest. He immediately becomes scared and tells you what he knows.**
+- **Threaten the man - you threaten the man by readying your weapon at him. He laughs at you and calls his guards. “Let’s take this outside. Can’t let you damaging my business and assets now, would I?”. This initiates a combat sequence. After being dealt enough damage, the guards will run away and leave the man alone for questioning.**
+- **Bribe the man - you comb through your pockets and present a hefty sum. The man’s eyes brighten and show a big, shin-eating grin. The man will answer any of your questions.**
+
+The man explains everything to you. “We took care of the package, indeed. Even the process of procuring it all thanks to this whole Legion thing. What’s even better is you drowning in your own fairytale land. Though, if I only have the package on my hand right now, then you’ll be happy no? But no, just a tad too little too late. Tell me, how well can you chase someone?”. You immediately remember someone exiting the tent earlier. The man confirms that the person indeed has the package and you immediately run after the person.
+
+### **End of Quest 3**
+
+## **Quest 4: "Small Importances"**
+
+### **Scene 1:**
+
+Immediately after emerging from the bushes, you see the person going into Summonwater village and immediately give chase. If this man gets away now, you won’t be able to get the package.
+
+The man immediately notices you and sprints towards the alleys in hopes of losing you.
+
+- **This is now a chase sequence. A player is given a choice to follow the man directly or to take a detour in hopes of catching up. The player can choose between two options:**
+	- **Keep chasing him - the man is right then and there. Just keep running after him. The only question is: which legs will fail first, yours or theirs?**
+	- **Find a detour to close the gap - check whether there is a possible detour on the way. If luck is on your side right now, it could close the gap. Or widen it.**
+
+**The chase will and always end in you cornering the man, but taking a detour will either give you a boost, or slow you even further.**
+
+### **Scene 2:**
+
+Eventually you corner him into an alley. Both of you are gasping for air from the exhaustion, but the man eventually catches their breath. “Y-you… don’t know… *gasp* what you’re doing.” He grabs something from behind him. “Listen, kid, turn back. What you’re trying to get back is something far more important than you can imagine.” He unsheathes something. “Turn around right now and tell whoever you’re serving right now that you’ve lost this thing, walk away from it.”
+
+You declined the offer, and he reveals two daggers. “Don’t make me do this.”.
+
+**The player is now in a combat encounter. Whatever happens, the man will surrender and will never die.**
+
+### **Scene 3:**
+
+In the middle of the fight, the package is damaged. Out flies a key into the muddy grounds of the alleyway. The man is on the ground and drops his daggers. “Take it. I don’t want to take any part in this.” You pick up the damaged package with the letter and the muddied key and immediately clean it. It is a strangely heavy key decorated with an emblem and is inscribed with words. You pocket it immediately and leave the alleyway. “Hey, before you go.”, says the man behind you. “I can’t change your mind on this whole matter, but he can.” You stopped and listened to the man. “Fort Knox, a man who goes by Nik. When you find him, tell him "a night at the play".
+
+Curiosity consumes you. This key, that was meant for the queen, holds something more than it looks like. Why would a key be this important? Better yet, why would anyone want it? For only a little gold? The man who was keeping it looked like they were protecting it with their life but they stopped and gave it to you in hopes of you understanding. There is certainly something going on, and you must uncover it.
+
+You now set your destination to Fort Knox.
+
+### **End of Quest 4**
 
 still in progress :D
 
