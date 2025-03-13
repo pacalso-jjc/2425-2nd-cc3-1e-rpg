@@ -79,6 +79,75 @@ You pick up everything you need and the person comes back. “Oh good, you’re 
 
 ## **End of Prologue/Quest 1**
 
+## **Quest 2: "Once Again"**
+
+### **Scene 1:**
+
+	From the barracks, you see the way towards the place has been cleared. You continue your walk. You encounter a very busy place full of parchments and such. It seems that you’re in a courier service.
+The player is free to ask the NPCs.
+
+- **NPCs will answer the following:**
+
+	- **The parchment being letters**
+	- **Some of the boxes being packages**
+	- **Ever since the war, the service has been in disarray**
+
+**Interacting a certain NPC (Keeper) one will progress the quest**
+
+The keeper recognizes you and asks you about your current task. This confuses you but confirms that this place is indeed where you work.
+
+- **1.** “Can you please remind me what it is again?” - the keeper says it’s an important one
+- **2.** “Oh yeah, the task. Uhh, what was it again?” - the keeper rolls their eyes and says it’s an important task.
+- **3.** “What task?” - the keeper is confused but she reminds you it’s important.
+
+A crowd of people exclaims for you to wait your turn. The keeper is seen to be exhausted to be angry but she gives you directions to the person who assigned the task.
+
+Inside the busy building are piles of unsorted piles of parchment being sorted by only a handful of people. A door can be seen at the end of the building and you enter.
+
+A woman greets you and asks you how the delivery went. You shake your head and shrug. The woman notices the injury in your head and becomes concerned. She deduces that you may have forgotten your task thanks to the injury so she explains it in secrecy. But before that, she made sure that no one outside the door may be listening.
+
+“You have an important task given upon you. A letter and a package for the princess. You were supposed to meet with someone to get the package from the village, but everyone said that the village was attacked.”
+
+She asks you if you still have the letter and the package, but you don’t remember the doctor giving you anything. She sighs in worry, but she immediately composes herself.
+
+“I do not know how to help you, but I suggest you start with the people who helped you here. Perhaps the doctor who tended to you. ”
+
+A knock is heard from the door. She stands and acknowledges. “You may go, good luck”.
+
+### **Scene 2:**
+
+You exit the door and went outside the building. You remember something about the doctor saying about someone carrying you to the hospital. They may know something.
+
+You go back to the hospital and find the doctor. You ask if they know the whereabouts of the person who carried you back here.
+
+The answer may depend on what choice you have picked on who to attack in the prologue
+
+- **Attack Armored Person** - the doctor says that the person who was carrying you was one of the invading force and is now on the chopping block. Though you can find him in the prison as the beheading is still in the later afternoon.
+- **Attack Robed Person** - the doctor says that the person has been recently released from the hospital and can be found in the barracks.
+
+You go to the person who saved you earlier. You thank them and ask if they saw something from them being taken before they found you.
+
+They explain that there was someone who took the package from you discreetly. Though it looked like one of them wore the emblem of the Caravan Company.
+
+**If the player saves the robed person, they will invite the player to The Legion of Ahmed, giving him a keyword that grants him to enter the encampment near the village.** 
+
+
+- **SPECIAL EVENT** 
+	- The Legionnaire will insist on staying in the cell as, in his own words, “My part is not yet in play.”. Guards immediately approach and unlock the cell to escort the prisoner. He stops and looks at you. “You have proven yourself worthy of The Prophet. But the question remains. Are you simply His audience, or will you be part of the grand play?”. He then resumes his walk with the guards to the outside of the prison.
+
+### **Scene 3:**
+
+You exit out of the building and see a crowd of people gathering somewhere.
+
+- **Asking the NPCs will answer the following:**
+	- **An execution is said to be happening**
+	- **It’s a captured Legionnaire from the Legion of Ahmed**
+	- **Something is said to be happening, so they went along**
+
+You follow along the crowd to the plaza and see the Legionnaire alongside a couple of guards and an executioner on a wooden platform. The Legionnaire is bound on a pillory. The crowd throws debris at the Legionnaire whilst being called names and such. “This state’s salvation is at hand! The Prophet alongside his disciples will cleanse the lands of weakness, and from the ashes, a state pure and free from corruption will arise!”, shouted the Legionnaire. The crowd boos the Legionnaire but you can feel a change of emotion in the air. It is anger, with a tinge of fear. “Worry not! We will all be free of suffering by His will! Long live the prophet! Long live the Legio-”. Before the Legionnaire finishes his last words, the executioner’s axe swiftly cuts down his neck followed by a thud on the platform. The Legionnaire is dead, and the crowd angers still. You immediately leave the plaza, and focus on the matter on your hand.
+
+###**End of Quest 2**
+
 still in progress :D
 
 # Sub Quest
