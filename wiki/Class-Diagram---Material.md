@@ -17,25 +17,6 @@ classDiagram
         + useMaterial(): void
         + getMaterialDetails(): String
         + getMaterialValue(): int
-        + increaseQuantity(amount: int): void
-        + decreaseQuantity(amount: int): void
-        + getRarityValue(): int
-        + setMaterialDurability(durability: int): void
+
+   Material --|> Item : Inheritance
     
-    }
-
-    class Consumable {
-        
-    }
-
-    class Armor {
-       
-    }
-
-    class Weapon {
-    }   
-
-    Material -- Item : Association
-    Item <|-- Consumable : Inherits
-    Item <|-- Armor : Inherits
-    Item <|-- Weapon : Inherits
