@@ -1,3 +1,5 @@
+```mermaid
+
 classDiagram
 
     class Neutral {
@@ -6,3 +8,5 @@ classDiagram
     }
   
     Character <|-- Neutral : inherits
+    
+    ```
