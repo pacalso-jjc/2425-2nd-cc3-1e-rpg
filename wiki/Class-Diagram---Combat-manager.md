@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class CombatManager {
 	-player: Character
@@ -6,3 +7,4 @@ classDiagram
 	+playerTurn()
 	+enemyTurn()
     }
+```
