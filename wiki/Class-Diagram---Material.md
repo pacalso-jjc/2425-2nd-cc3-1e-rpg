@@ -1,22 +1,26 @@
 ```mermaid
 ---
+title: Material Class
+---
 classDiagram
     class Material {
         - String name
         - String type
         - int quantity
         - String description
-        - int weight
-        - Boolean isConsumable
-        - Boolean isCraftable
+        - int value
         - String rarity
-        + useMaterial(): void
+        - Boolean isConsumable
+        - int durability
+        - String materialCategory
         + combineMaterials(material: Material): void
+        + useMaterial(): void
         + getMaterialDetails(): String
         + getMaterialValue(): int
-    }
-
-    class Item {
+        + increaseQuantity(amount: int): void
+        + decreaseQuantity(amount: int): void
+        + getRarityValue(): int
+        + setMaterialDurability(durability: int): void
     
     }
 
@@ -31,7 +35,7 @@ classDiagram
     class Weapon {
     }   
 
-    Material <|-- Item : Inherits
+    Material -- Item : Association
     Item <|-- Consumable : Inherits
     Item <|-- Armor : Inherits
     Item <|-- Weapon : Inherits
