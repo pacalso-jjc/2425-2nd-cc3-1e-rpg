@@ -108,11 +108,11 @@ Inside the busy building are piles of unsorted piles of parchment being sorted b
 
 A woman greets you and asks you how the delivery went. You shake your head and shrug. The woman notices the injury in your head and becomes concerned. She deduces that you may have forgotten your task thanks to the injury so she explains it in secrecy. But before that, she made sure that no one outside the door may be listening.
 
-“You have an important task given upon you. A letter and a package for the princess. You were supposed to meet with someone to get the package from the village, but everyone said that the village was attacked.”
+“You have an important task given upon you. A letter and a package sent by the queen herself. You were supposed to meet with someone to get the package from the village, but everyone said that the village was attacked.”
 
 She asks you if you still have the letter and the package, but you don’t remember the doctor giving you anything. She sighs in worry, but she immediately composes herself.
 
-“I do not know how to help you, but I suggest you start with the people who helped you here. Perhaps the doctor who tended to you. ”
+“I do not know how to help you, but I suggest you start with the people who helped you here. Perhaps the doctor who tended to you.”  She presents a crest. “You almost forgot this, but it’s a miracle you did. You need to present this alongside the letter.”
 
 A knock is heard from the door. She stands and acknowledges. “You may go, good luck”.
 
@@ -173,7 +173,7 @@ You immediately went to the village, hoping that you would find any clues.
 
 ### **Scene 2:**
 
-###**Wuthering:**
+### **Wuthering:**
 
 You return to the town where the invasion began. Wuthering. Once it was a town of life. Now, it's a charred mess of buildings and mounds of corpses. A town of lifelessness and death. You can see survivors weeping and children wandering around calling for their mothers and fathers.
 
@@ -209,7 +209,7 @@ You thank the tavernkeep and continue your journey.
 
 **Though the player will not know where they actually are unless they ask around the places.**
 
-###**Thomasia Pilgrimage Site:**
+### **Thomasia Pilgrimage Site:**
 
 You visit the site in hopes that you will find a trace of the Company.
 
@@ -231,7 +231,7 @@ She says that she saw a caravan going in the direction of Summonwater and Hereti
 
 You thank her and continue your task to find the Company.
 
-###**Summonwater Village:**
+### **Summonwater Village:**
 
 You enter the village in hopes that you will find a trace of the Company.
 
@@ -266,7 +266,7 @@ You see a small group of militia guarding the area of the tower itself. Who woul
 	- **The tower is off limits**
 	- **No, they do not know the history behind this tower too**
 
-**After exhausting the dialogue options, the story will continue
+**After exhausting the dialogue options, the story will continue**
 
 You ask the militia if they have seen someone who bears the emblem you are currently showing.
 
@@ -327,13 +327,143 @@ You declined the offer, and he reveals two daggers. “Don’t make me do this.�
 
 ### **Scene 3:**
 
-In the middle of the fight, the package is damaged. Out flies a key into the muddy grounds of the alleyway. The man is on the ground and drops his daggers. “Take it. I don’t want to take any part in this.” You pick up the damaged package with the letter and the muddied key and immediately clean it. It is a strangely heavy key decorated with an emblem and is inscribed with words. You pocket it immediately and leave the alleyway. “Hey, before you go.”, says the man behind you. “I can’t change your mind on this whole matter, but he can.” You stopped and listened to the man. “Fort Knox, a man who goes by Nik. When you find him, tell him "a night at the play".
+In the middle of the fight, the package is damaged. Out flies a key into the muddy grounds of the alleyway. The man is on the ground and drops his daggers. “Take it. I don’t want to take any part in this.” You pick up the damaged package with the letter and the muddied key and immediately clean it. It is a strangely heavy key decorated with an emblem and is inscribed with words. You pocket it immediately and leave the alleyway. “Hey, before you go.”, says the man behind you. “I can’t change your mind on this whole matter, but he can.” You stopped and listened to the man. “Fort Farroth, a man who goes by Nik. When you find him, tell him 'a knight in the gallows'. "
 
-Curiosity consumes you. This key, that was meant for the queen, holds something more than it looks like. Why would a key be this important? Better yet, why would anyone want it? For only a little gold? The man who was keeping it looked like they were protecting it with their life but they stopped and gave it to you in hopes of you understanding. There is certainly something going on, and you must uncover it.
+Curiosity consumes you. This key, sent by the queen herself, holds something more than it looks like. Why would a key be this important? Better yet, why would anyone want it? For only a little gold? The man who was keeping it looked like they were protecting it with their life but they stopped and gave it to you in hopes of you understanding. There is certainly something going on, and you must uncover it.
 
-You now set your destination to Fort Knox.
+You now set your destination to Fort Faroth.
 
 ### **End of Quest 4**
+
+## **Quest 5: “...To Rule Them All”**
+
+### **Scene 1:**
+
+From a distance you see a small castle-esque building with what seems like lines upon lines of soldiers marching from it. There is no mistake, it is Fort Farroth. And it seems that the state is acting on the advance of the Legion. You head on inside.
+
+Upon entering the fort, you are greeted with countless soldiers training for combat and archery with great effort for the defense of their beloved state. Hundreds of weapons stationed in racks constantly being tended by their owners and armors being tempered by the local blacksmith.
+
+**The player can now ask around to find the person they are looking for.**
+
+- **The NPCs will answer the following:**
+	- **They haven’t heard of anyone named Nik**
+	- **They used to have a Nik around, until an arrow took their knee and died in battle**
+	- **“Nik? Like a nick in the sword or something?”**
+
+**Exhausting their dialogue will proceed to the next scene.**
+
+### **Scene 2:**
+
+Suddenly, a heavily guarded group comes out from the interiors of the fort bearing a different set of attire from what you normally see. It seems to be councillors from different regions. You overhear their conversation.
+
+“Finally, the state has made a move upon this matter. A state that is neutral is one to behold! Especially in these grim times, but sometimes a sacrifice in pride must be made for the greater good. That high and mighty sage is a hard nut to crack but the Legion’s advancements made it possible. Of course, it was only a matter of time before Old Sage Nik caves in.”
+
+Your ears prick up. Is this the man who was meant to receive the package?
+
+You immediately walked to the entrance inside the Fort before being stopped by the guards. “State your purpose”, says the left guard.
+
+- **The player can choose what to do:**
+- **State their purpose - you state that you have something for the sage. “The High Sage has been expecting you.” They lower their spears and let you enter.**
+- **Ask if Old Sage Nik is inside - “Who is asking?” says the right guard. You respond by saying that you are a courier who is supposed to deliver something for him. They lower their weapons and they let you enter.**
+- **Present the damaged package - they immediately inspected the package and they see an emblem from the queen. They lower their weapons and let you enter the fort.**
+
+### **Scene 3:**
+
+You see a group of people surrounding a table discussing with each other. They immediately leave and you see an old man at the center of the table. You hypothesized that this man is the one who you're looking for and approached him.
+
+You approach the old man and immediately get his attention. He asks you to state your purpose as he has a lot of things to do. You mutter the words “A knight in the gallows” and he immediately looks around. “Not here, follow me”. He stands up and you follow him into a room.
+
+In the room, you show the key and he asks you to give it to him. You retract your arm and state that you are the original courier of the key and ask why he orchestrated the whole ordeal.
+
+“So, you are the man who has been tasked to the key. You have all the reason to give it back to the queen, but I can tell that you have a lot of questions on your mind. The purpose and the gravity of this little key right?”
+
+He offers you a seat, and he expounds on its use. He doesn’t know the true use of the key except one. To anyone the key is nothing, but it controls something far more important. The state itself. He originally took if from you to safekeep if from anyone, even the queen herself. If it falls to the wrong hands, even if it is the state itself, it can spell doom to the inhabitants of the state itself. He tells you that he has a lot in his hand and he doesn’t want to draw attention, but he knows where to start to know the true purpose of the key. He gives you directions to a museum in the capital. “There, you must find something that carries the symbol and the words of the key, it will guide you to the answer. And as always, ‘a knight at the gallows’ is the keyword.” He opens the door and you follow him.
+
+Instead of insisting on you giving him the key, he lets you keep it. “You are the one who is supposed to deliver it after all”, he said and returned to his usual activities.
+
+You set your next destination to the museum in the Capital.
+
+### **End of Quest 5**
+
+## **Quest 6: “Of Symbols and Ciphers”**
+
+### **Scene 1:**
+
+You went back to the capital and followed the directions of the Old Sage. Upon arriving you were surprised that the building that greets you is a tavern instead. You ask around in confusion and everyone answers that the building WAS a museum. The owner couldn’t raise enough money to keep the building so the man who owns the tavern, well, owns it now.
+
+### **Scene 2:**
+
+You enter the inn and are greeted by the smell of food and mead in the air. It’s a tavern alright, and it’s packed with people. You take a seat and ask the barkeeper and he asks you what you want. You answer the keyword and the barkeeper calls for someone. A girl comes by and the barkeeper whispers something to her. He asks you to come with him. You follow him into the back of the tavern, where barrels of alcohol and the likes are stored. He points to a specific spot in the room and you look closer.
+
+It’s an old, normal-looking pipe. What’s different with it is that it bears the same emblem in the key though on a much smaller scale, looking like a metalwork company’s emblem. The barkeeper hypothesized that this pipe has been present when the museum was still standing. The Old Sage’s man took notice of this and asked the barkeeper to keep it a secret for now. You feel like following this pipe may lead you closer to the answer but this may prove to be a harder task.
+
+You remember that this used to be a museum, maybe the old owner knows something about the pipe. You ask the barkeeper if he knows where the old owner lives and gives you directions. You exit the tavern and find the old owner.
+
+### **Scene 3:**
+
+You stop by a semi-dilapidated building and knock on the door. A woman greets you and kindly asks about your business. You explain that you are finding the owner of the used-to-be museum and she lets you in.
+
+Compared to the outside, the interiors of the house are much neater. She offers you a seat and asks you to wait as she asks for her father.
+
+After a few minutes, you are greeted by an old man. Though, he still is as vibrant as if he is still in his younger ages. He takes a seat and offers you tea. You ask him about the pipe in the tavern and he asks you not to tear it down as it carries history. 
+
+He explains that there used to be a group of very clever and talented scholars that are said to serve under the State that bears the symbol and words but they disappeared one day. Some say it is because of the rampant killings of anyone who takes part in “scorcery”. He says that it's a shame as if the project were finished, who knows what the pipe really is for. He suggests that you dig deeper into this mystery and get to the bottom of it and suggests that you follow it. 
+
+He hints at you that the tavern isn’t only one that exists, and it can be found everywhere. Though, there is only one that is worth investigating. It’s a tough task but it will get you closer to the answer.” He says it is located in the Lower District and bid you farewell and goodluck.
+
+You thank him for the tea and go to your next task.
+
+### **End of Quest 6.**
+
+## **Quest 7: “Secrets Buried”**
+
+### **Scene 1:**
+
+You head straight to the Lower District to investigate the emblem-marked point of interest.
+
+You ask around the district if they see any monument that bears any weird emblems.
+
+The locals point you to the direction of a certain location dubbed “The Rat’s Nest”, you thank the locals and go to the location.
+
+### **Scene 2:**
+
+You see a weird block of pipes shaped into a block of cube. Funnily enough, it does look like a rat’s nest, just cube shaped. Upon closer inspection, you can see what seems to be the emblem, though it is unrecognizable until you look closely. It seems that someone doesn’t want to know about this.
+
+A man approaches you and initiates a conversation. He asks what are the theoretical applications of this structure and what could be its origins. Was it a mishap that was built but it worked so they didn’t bother fixing it? Was it something the state was doing for something else big? Who knows, but the man’s specificity on the matter was odd. You ask him if he knows something else about this structure and he nods. You laugh, but you realize that he wasn’t joking. He may know something that will lead you to the answer itself. You share a small knowledge about the pipes and he looks amazed and surprised. “You’re looking for answers, no? I can tell you but not here.” He invites you to his home to further discuss the matter. You follow.
+
+### **End of Quest 7.**
+
+## **Quest 8: “For the Greater Good”**
+
+### **Scene 1:**
+
+You entered his home and led you into his small library. Impressive as it may be, questions popped into your mind. Who might this man be?
+
+He offers you a chair and he asks you a question. “How much do you know?”. You explain that the only thing that you knew is that it exists everywhere and it used to be a project of the scholars of the state. He is impressed but he says that you are missing something. 
+
+He presents himself as one of the scholars who worked on it who is now fearing that the state may use the system of the pipes indecisively. He explains that the pipes were designed mainly as a defense mechanism, though the scholars themselves had no interest in it. Only that the research that they were conducting will contain said pipes.”Magna Parva Sarcinas. It’s latin for “great things in small packages”, he explained. You remember the key having the same inscriptions as what he said. He explains that they were conducting an experiment on rats, but the research ultimately failed, and are now holding something that will be the death of all.
+
+### **Scene 2:**
+
+He stands up and tries to take a book from a bookshelf, but it instead moves the entire bookshelf and presents a pipe that bears the same emblem as the previous pipe. He said that he has been examining the rats ever since, and they have been getting worse. He says that if the key is ever used, the death of the state, nay, the entirety of the country will occur. 
+
+You immediately clutch the key in fear of the thought. He sees this and immediately guesses that you carry the key. He asks you to properly think of whoever you are going to give the key to.
+
+### **Scene 3:**
+
+Alongside the pipe is a narrow hallway, the man explains it as a pathway to every pipe there is. For maintenance purposes. He tells you a specific direction to follow as it will lead you to where the key will be inserted.
+
+You follow what seems to be an endless hallway with no end. You enter another path according to the directions and you hear people speaking on the other wall. You deduce from the voices that you are inside the upper city gate-keep. You keep going and you see a crack in the wall. You hear someone talking about a key going missing, its importance, and its danger. Upon peeking, it’s the princess of the state talking to someone. The room has an apparatus in the middle with a spot for the key. You go back from the path you came from and now understand that the key was actually a delivery for the princess.
+
+### **End of Quest 8**
+
+### **Quest 9: “The Forked Path”**
+
+**This quest is dependent on the side quests as the player will now give the key to one of the major quests. The outcome of the story will depend on what faction gets the key.**
+
+**To progress the main quest, the player must finish one of the factions’ quest lines until their pre-finale step.**
+
+**After clearing the quest line of a faction, the player may now give the key to the faction and progress to the final quest.**
 
 still in progress :D
 
