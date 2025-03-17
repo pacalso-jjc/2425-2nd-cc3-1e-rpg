@@ -3,7 +3,7 @@
 title: Archer Class
 ---
 classDiagram
-    Classification <|--> Archer
+    Classification <|--- Archer
     class Archer {
         -int damage
         -int armor
