@@ -4,12 +4,12 @@ title: Location Class
 ---
 classDiagram
     class Location {
-        - double latitude
-        - double longitude
-        - string address
-        - string city
-        - string country
-        - string postalCode
+        - name
+        - description
+        - enemyList
+        - itemList
+        - questList
+        - npcList
         + getCoordinates(): string
-        + getFullAddress(): string
+        + getAddress(): string
     }
