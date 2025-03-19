@@ -6,10 +6,10 @@ classDiagram
     class Location {
         - name: string
         - description: string
-        - enemyList: list
-        - itemList: list
-        - questList: list
-        - npcList: list
+        - enemyList: list<Enemy>
+        - itemList: list<Item>
+        - questList: list<Quest>
+        - npcList: list<NPC>
         
         + getCoordinates(): string
         + getAddress(): string
