@@ -1,0 +1,17 @@
+---
+title: Run Action
+---
+classDiagram
+    class RunAction {
+        +String direction
+        +int distance
+        +void execute(Character character)
+    }
+
+    class Character {
+        +String name
+        +int position
+        +void move(int distance)
+    }
+
+    Character "1" -- "*" RunAction : can do
