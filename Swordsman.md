@@ -2,10 +2,7 @@
 ---
 title: Swordsman
 ---
-classDiagram
-    class Character {
-        
-    }
+classDiagram   
     class Swordsman{
         +int swordSkillLevel
         -Sword equippedSword
@@ -13,11 +10,6 @@ classDiagram
         +void Block()
         +void Counter()
         +void Dodge()
-    }
-  class Sword{
-        +String name
-        +int damage
-        +float range
     }
     class Classification {
     }
