@@ -1,13 +1,8 @@
 ```mermaid
 ---
-title: Class Diagram of Characters
+title: Character
 ---
 classDiagram
-    note "Characters from NPC to Player"
-    Character <|-- NPC
-    Character <|-- Player
-    Character <|-- Other Characters
-    Character o-- Inventory
     Character : -String name
     Character : -String sex
     Character : -String allegiance
@@ -26,6 +21,8 @@ classDiagram
     Character : +dealDamage(character,amount)
     Character : +takeDamage(amount)
     Character : +isAlive()
+    Character : +move()
+    Character : +speak()
 
     
 ```
