@@ -11,8 +11,4 @@ classDiagram
         +void Counter()
         +void Dodge()
     }
-    class Classification {
-    }
-    Swordsman <|-- Classification : Inheritance
-    Character<|-- Swordsman : Inheritance
-    Swordsman o-- Sword : Composition
+   
