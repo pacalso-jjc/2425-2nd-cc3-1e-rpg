@@ -9,13 +9,4 @@ classDiagram
         +Dialogue getDialogue(String text)
         +void startDialogue(Dialogue dialogue)
     }
-
-    class Dialogue {
-    }
-
-    class Choice {
-    }
-
-    DialogueManager  o--  Dialogue : aggregates
-    Dialogue  *--  Choice : composed of
 ```
