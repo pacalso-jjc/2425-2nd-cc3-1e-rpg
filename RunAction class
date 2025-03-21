@@ -1,17 +1,16 @@
----
-title: Run Action
----
-classDiagram
-    class RunAction {
-        +String direction
-        +int distance
-        +void execute(Character character)
+public class RunAction {
+    private int distance;
+    private String direction;
+    private String runStyle;
+
+    public RunAction(int distance, String direction, String runStyle) { 
+        this.distance = distance;
+        this.direction = direction;
+        this.runStyle = runStyle;
     }
 
-    class Character {
-        +String name
-        +int position
-        +void move(int distance)
+    public void execute(Character runner) {
+        System.out.println(runner.getName() + " dashes " + distance + " steps " + direction + " with " + runStyle + "!");
+        // Simulate movement logic (e.g., update runner's position)
     }
-
-    Character "1" -- "*" RunAction : can do
+}
