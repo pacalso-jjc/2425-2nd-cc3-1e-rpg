@@ -134,4 +134,3 @@ classDiagram
         + void fightBoss()
         + void collectTreasure()
     }
-
