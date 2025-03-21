@@ -1,3 +1,4 @@
+```mermaid
 ---
 title: GameClassDiagram
 ---
@@ -46,3 +47,4 @@ Game --> Player
 Game --> Enemy
 Player --> Weapon
 Enemy --> Weapon
+```
