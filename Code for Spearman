@@ -1,0 +1,94 @@
+public class Character {
+    protected String name;
+    protected int health;
+
+    public Character(String name, int health) {
+        this.name = name;
+        this.health = health;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void takeDamage(int damage) {
+        this.health = Math.max(0, this.health - damage);
+    }
+
+    public void displayStats() {
+        System.out.println("Name: " + name + ", Health: " + health);
+    }
+}
+
+class Spear {
+    private String name;
+    private int damage;
+
+    public Spear(String name, int damage) {
+        this.name = name;
+        this.damage = damage;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+public class Spearman extends Character {
+    private int spearSkillLevel;
+    private Spear equippedSpear;
+
+    public Spearman(String name, int health, int spearSkillLevel, Spear equippedSpear) {
+        super(name, health);
+        this.spearSkillLevel = spearSkillLevel;
+        this.equippedSpear = equippedSpear;
+    }
+
+    public void attack(Character target) {
+        int damage = equippedSpear.getDamage() + spearSkillLevel;
+        System.out.println(name + " attacks " + target.getName() + " for " + damage);
+        target.takeDamage(damage);
+    }
+
+    public void block() {
+        System.out.println(name + " blocks!");
+    }
+
+    public void counter(Character target) {
+        int damage = equippedSpear.getDamage() + spearSkillLevel * 2;
+        System.out.println(name + " counters " + target.getName() + " for " + damage);
+        target.takeDamage(damage);
+    }
+
+    public void dodge() {
+        System.out.println(name + " dodges!");
+    }
+
+    @Override
+    public void displayStats() {
+        super.displayStats();
+        System.out.println("Skill: " + spearSkillLevel + ", Spear: " + equippedSpear.getName());
+    }
+
+    public static void main(String[] args) {
+        Spear spear = new Spear("Basic Spear", 15);
+        Spearman player = new Spearman("Aragorn", 100, 5, spear);
+        Character enemy = new Character("Goblin", 50);
+
+        player.displayStats();
+        enemy.displayStats();
+
+        player.attack(enemy);
+        enemy.displayStats();
+
+        player.counter(enemy);
+        enemy.displayStats();
+
+        player.block();
+        player.dodge();
+    }
+}
