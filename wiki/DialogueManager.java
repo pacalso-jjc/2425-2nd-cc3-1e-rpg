@@ -2,7 +2,7 @@
     private List<Dialogue> dialogues;
 
     public DialogueManager() {
-        dialogues = new ArrayList<>(); // Initialize the List
+        dialogues = new ArrayList<>();
     }
 
     public void addDialogue(Dialogue dialogue) {
