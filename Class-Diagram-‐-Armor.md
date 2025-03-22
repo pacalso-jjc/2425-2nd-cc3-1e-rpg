@@ -4,7 +4,9 @@ title: Armor Class
 ---
 classDiagram
     class Armor {
-        +int defense
+        +int bonusDefense
+        +void setBonusDefense(int bonusDefense)
+        +int getBonusDefense()
     }
     
     Armor <|-- Item : Inheritance
