@@ -1,20 +1,18 @@
-# Player Class Extending Character
-
 public class Player extends Character {
-    private String playerClass;
+    private Classification playerClass;
     private int skillPoints;
 
-    public Player(String name, String sex, String allegiance, String classification, int level, int hp, int strength, int speed, int defense, int stamina, int charisma, String playerClass) {
-        super(name, sex, allegiance, classification, level, hp, strength, speed, defense, stamina, charisma);
+    public Player(String name, String sex, String allegiance, Classification playerClass, int level, int hp, int strength, int speed, int defense, int stamina, int charisma) {
+        super(name, sex, allegiance, playerClass.getClassificationName(), level, hp, strength, speed, defense, stamina, charisma);
         this.playerClass = playerClass;
         this.skillPoints = 0;
     }
 
-    public String getPlayerClass() {
+    public Classification getPlayerClass() {
         return playerClass;
     }
 
-    public void setPlayerClass(String playerClass) {
+    public void setPlayerClass(Classification playerClass) {
         this.playerClass = playerClass;
     }
 
