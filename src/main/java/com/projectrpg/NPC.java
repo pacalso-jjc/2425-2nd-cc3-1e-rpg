@@ -20,10 +20,6 @@ public class NPC extends Character {
         System.out.println(getName() + " offers a quest: " + questHook);
     }
 
-    public void trade() {
-        System.out.println(getName() + " shows you their wares.");
-    }
-
     public String getRole() {
         return role;
     }
