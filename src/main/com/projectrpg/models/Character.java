@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Character {
+class Character {
     private String name;
     private String sex;
     private String allegiance;
-    private String classification;
+    private Classification classification;
     private int level;
     private int experience;
     private int hp;
@@ -14,80 +14,39 @@ public class Character {
     private int defense;
     private int stamina;
     private int charisma;
-    private List<String> equipment;
-    private List<String> inventory;
+    private List<Item> equipment;
+    private Inventory inventory;
 
-    public Character(String name, String sex, String allegiance, String classification, int level, int hp, int strength, int speed, int defense, int stamina, int charisma) {
+    public Character(String name, String sex, String allegiance, Classification classification) {
         this.name = name;
         this.sex = sex;
         this.allegiance = allegiance;
         this.classification = classification;
-        this.level = level;
-        this.experience = 0;
-        this.hp = hp;
-        this.strength = strength;
-        this.speed = speed;
-        this.defense = defense;
-        this.stamina = stamina;
-        this.charisma = charisma;
+        this.level = 1; // Default
+        this.experience = 0; // Default
+        this.hp = 100; // Default
+        this.strength = 10; // Default
+        this.speed = 10; // Default
+        this.defense = 10; // Default
+        this.stamina = 10; // Default
+        this.charisma = 10; // Default
         this.equipment = new ArrayList<>();
-        this.inventory = new ArrayList<>();
+        this.inventory = new Inventory();
     }
 
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    
-    public String getSex() { return sex; }
-    public void setSex(String sex) { this.sex = sex; }
-    
-    public String getAllegiance() { return allegiance; }
-    public void setAllegiance(String allegiance) { this.allegiance = allegiance; }
-    
-    public String getClassification() { return classification; }
-    public void setClassification(String classification) { this.classification = classification; }
-    
-    public int getLevel() { return level; }
-    public void setLevel(int level) { this.level = level; }
-    
-    public int getExperience() { return experience; }
-    public void setExperience(int experience) { this.experience = experience; }
-    
-    public int getHp() { return hp; }
-    public void setHp(int hp) { this.hp = hp; }
-    
-    public int getStrength() { return strength; }
-    public void setStrength(int strength) { this.strength = strength; }
-    
-    public int getSpeed() { return speed; }
-    public void setSpeed(int speed) { this.speed = speed; }
-    
-    public int getDefense() { return defense; }
-    public void setDefense(int defense) { this.defense = defense; }
-    
-    public int getStamina() { return stamina; }
-    public void setStamina(int stamina) { this.stamina = stamina; }
-    
-    public int getCharisma() { return charisma; }
-    public void setCharisma(int charisma) { this.charisma = charisma; }
-    
-    public List<String> getEquipment() { return equipment; }
-    public void addEquipment(String item) { this.equipment.add(item); }
-    
-    public List<String> getInventory() { return inventory; }
-    public void addInventory(String item) { this.inventory.add(item); }
-    
     public boolean isPlayer() {
-        return "Player".equalsIgnoreCase(classification);
+        return true; // Placeholder
     }
 
     public void dealDamage(Character target, int amount) {
-        int damage = Math.max(amount - target.getDefense(), 0);
-        target.takeDamage(damage);
+        target.takeDamage(amount);
     }
 
     public void takeDamage(int amount) {
         this.hp -= amount;
-        if (this.hp < 0) this.hp = 0;
+        if (this.hp < 0) {
+            this.hp = 0;
+        }
     }
 
     public boolean isAlive() {
@@ -95,10 +54,14 @@ public class Character {
     }
 
     public void move() {
-        System.out.println(name + " moves swiftly.");
+        //idk the movement logic 
     }
 
-    public void speak() {
-        System.out.println(name + " speaks eloquently.");
+    public void speak(String message) {
+        System.out.println(this.name + ": " + message);
+    }
+
+    public String getName() {
+        return name;
     }
 }
