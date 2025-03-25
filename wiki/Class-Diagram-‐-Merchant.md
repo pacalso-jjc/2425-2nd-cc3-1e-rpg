@@ -1,7 +1,14 @@
+```mermaid
+---
+title: Merchant
+---
 classDiagram
-class BankAccount{
-    +String owner
-    +BigDecimal balance
-    +deposit(amount)
-    +withdrawal(amount)
+    class Merchant {
+    +String name
+    +int level
+    +int gold
+    +List~Item~ inventory
+    +void buy(Item item)
+    +void sell(Item item)
+    +void manageInventory()
 }
