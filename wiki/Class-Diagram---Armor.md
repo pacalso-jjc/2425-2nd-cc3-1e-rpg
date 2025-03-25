@@ -9,4 +9,4 @@ classDiagram
         +int getBonusDefense()
     }
     
-    Armor <|-- Item : Inheritance
+    Armor <|-- Equipment : Inheritance
