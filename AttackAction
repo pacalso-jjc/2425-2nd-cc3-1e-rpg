@@ -1,0 +1,23 @@
+public class Character {
+    String name;
+    int health;
+
+    public void takeDamage(int damage) {
+        this.health -= damage;
+    }
+
+    public void applyEffect(String effect) {
+        // Implementation for applying effects
+    }
+}
+
+public class AttackAction {
+    String name;
+    int damage;
+    String effect;
+
+    public void execute(Character target) {
+        target.takeDamage(damage);
+        target.applyEffect(effect);
+    }
+}
