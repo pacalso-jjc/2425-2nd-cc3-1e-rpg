@@ -16,8 +16,6 @@ classDiagram
     
     class World {
         - String name
-        - int width
-        - int length
         - String description
         - String environment
 
