@@ -17,7 +17,6 @@ classDiagram
     class World {
         - String name
         - String description
-        - String environment
 
         + void describeWorld()
         + int calculateArea()
