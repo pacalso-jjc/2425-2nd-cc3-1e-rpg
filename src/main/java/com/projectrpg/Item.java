@@ -1,16 +1,11 @@
-public class Item {
-    private String name;
+public class Item extends GameObject {
     private String type;
     private int value;
 
-    public Item(String name, String type, int value) {
-        this.name = name;
+    public Item(String name, String description, String type, int value) {
+        super(name, description);
         this.type = type;
         this.value = value;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public String getType() {
@@ -19,10 +14,6 @@ public class Item {
 
     public int getValue() {
         return value;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public void setType(String type) {
