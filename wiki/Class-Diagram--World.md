@@ -3,7 +3,7 @@ title: World
 ---
 
 classDiagram
-    Class-Diagram--World.md 
+    Class-Diagram--World.md <|-- Capital
     World <|-- City 
     World <|-- Village 
     World <|-- Region 
