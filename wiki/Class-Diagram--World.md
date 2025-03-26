@@ -3,16 +3,16 @@ title: World
 ---
 
 classDiagram
-    Class-Diagram--World.md <|-- Capital : extends
-    World <|-- City : extends
-    World <|-- Village : extends
-    World <|-- Region : extends
+    Class-Diagram--World.md 
+    World <|-- City 
+    World <|-- Village 
+    World <|-- Region 
     
-    Region o-- Forest : contains
-    Region o-- Ruin : contains
-    Region o-- Shrine : contains
-    Capital *-- Fort : protects
-    Village -- Forest : borders
+    Region o-- Forest 
+    Region o-- Ruin 
+    Region o-- Shrine 
+    Capital *-- Fort 
+    Village -- Forest 
     
     class World {
         - String name
