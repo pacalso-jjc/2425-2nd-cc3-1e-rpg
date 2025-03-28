@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Character {
-    private String name;
+class Character extends GameObject{
     private String sex;
     private String allegiance;
     private Classification classification;
@@ -61,7 +60,4 @@ class Character {
         System.out.println(this.name + ": " + message);
     }
 
-    public String getName() {
-        return name;
-    }
 }
