@@ -1,4 +1,4 @@
-public class Cavalier {
+public class Cavalier extends Classification{
 	int hp;
 	int damage;
 	int armor;
@@ -23,11 +23,9 @@ public class Cavalier {
 	public int getinitiative() {return initiative;}
 	public void setinitiative(int initiative) {this.initiative = initiative;}
 	
-	@Override
 	public void charge() {
 		System.out.println("The cavalier charges with damage: "+damage);
 	}
-	@Override
 	public void pursue() {
 		System.out.println("The cavalier pursues the enemy with initiative: "+ initiative);
 	}
