@@ -5,9 +5,9 @@ title: Swordsman
 classDiagram   
     class Swordsman{
         +int swordSkillLevel
-        -Sword equippedSword
-        +void Attack()
-        +void Block()
-        +void Counter()
-        +void Dodge()
+        -Weapon equippedWeapon
+        +void attack()
+        +void block()
+        +void counter()
+        +void dodge()
     }
