@@ -22,56 +22,19 @@ public class Dialogue {
         choices.put(choiceId, nextDialogue);
     }
 
-    public void startDialogue() {
-        System.out.println(characterName + " says:");
-        for (String line : lines) {
-            System.out.println(line);
-        }
-
-        if (!choices.isEmpty()) {
-            System.out.println("Choose an option:");
-            for (Map.Entry<Integer, Dialogue> entry : choices.entrySet()) {
-                System.out.println(entry.getKey() + ": " + entry.getValue().getFirstLine());
-            }
-        } else {
-            System.out.println("End of conversation.");
-        }
-    }
-
     public Dialogue getNextDialogue(int choiceId) {
         return choices.getOrDefault(choiceId, null);
     }
 
-    public String getFirstLine() {
-        return lines.isEmpty() ? "" : lines.get(0);
+    public String getCharacterName() {
+        return characterName;
     }
 
-    public static void main(String[] args) {
-        // Example usage
-        Dialogue introDialogue = new Dialogue("Old Sage");
-        introDialogue.addLine("Welcome, traveler.");
-        introDialogue.addLine("What brings you to this ancient land?");
+    public List<String> getLines() {
+        return lines;
+    }
 
-        Dialogue option1Dialogue = new Dialogue("Old Sage");
-        option1Dialogue.addLine("Ah, seeking adventure, are you?");
-        option1Dialogue.addLine("Be careful, the path ahead is treacherous.");
-
-        Dialogue option2Dialogue = new Dialogue("Old Sage");
-        option2Dialogue.addLine("Wisdom, you say?");
-        option2Dialogue.addLine("Then listen closely...");
-
-        introDialogue.addChoice(1, option1Dialogue);
-        introDialogue.addChoice(2, option2Dialogue);
-
-        // Start the dialogue
-        introDialogue.startDialogue();
-
-        // Simulate player choice
-        int playerChoice = 1; // Assume player chooses option 1
-        Dialogue nextDialogue = introDialogue.getNextDialogue(playerChoice);
-
-        if (nextDialogue != null) {
-            nextDialogue.startDialogue();
-        }
+    public Map<Integer, Dialogue> getChoices() {
+        return choices;
     }
 }
