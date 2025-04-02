@@ -24,13 +24,13 @@ You try to open your eyes, but you can only see glimpses. You seem to be being c
 
 ### **Scene 2 (Character Creation)**
 
-You wake up in a hospital. You are surrounded by wounded people being tended. A doctor notices that you have woken up and asks how you are feeling.
+You wake up in a hospital. You are surrounded by wounded people being tended. An apothecary notices that you have woken up and asks how you are feeling.
 
-- **1.** “I feel… alright.” – the doctor responds that you’re very lucky as your head injury is very fatal, yet you lived.
-- **2.** “I am awake, so…” – the doctor responds to your humor well, saying that even in a fatal condition, you manage to crack a joke.
-- **2.** Remain Silent – the doctor assures that everything may be a bit confusing thanks to your head injury.
+- **1.** “I feel… alright.” – the apothecary responds that you’re very lucky as your head injury is very fatal, yet you lived.
+- **2.** “I am awake, so…” – the apothecary responds to your humor well, saying that even in a fatal condition, you manage to crack a joke.
+- **2.** Remain Silent – the apothecary assures that everything may be a bit confusing thanks to your head injury.
 
-The doctor asks what is your name. You try to say it, but you somehow can’t. But still, you try to mutter something that resembles a name.
+The apothecary asks what is your name. You try to say it, but you somehow can’t. But still, you try to mutter something that resembles a name.
 
 **This part is where the character will type their name**
 
@@ -40,7 +40,7 @@ The doctor then picks up a mirror and shows it to you. You see a figure, but you
 **This is the part where the player makes their character**
 
 You aren’t certain if what you see in the mirror is really you or not, but it’s who you are now.
-The doctor hypothesized that the injury may have made you amnesiac. But that doesn’t matter. What matters is that you survived, and he thanks the person that carried you to the hospital whoever they may be. In the meantime, the doctor releases you from the hospital. He asks you to try exploring. Maybe you can remember something from exploring the place.
+The apothecary hypothesized that the injury may have made you amnesiac. But that doesn’t matter. What matters is that you survived, and he thanks the person that carried you to the hospital whoever they may be. In the meantime, the apothecary releases you from the hospital. He asks you to try exploring. Maybe you can remember something from exploring the place.
 
 ### **Scene 3**
 
@@ -94,9 +94,9 @@ From the barracks, you see the way towards the place has been cleared. You conti
 	- **Some of the boxes being packages**
 	- **Ever since the war, the service has been in disarray**
 
-**Interacting a certain NPC (Keeper) one will progress the quest**
+**Interacting a certain NPC (Guild Receptionist) will progress the quest**
 
-The keeper recognizes you and asks you about your current task. This confuses you but confirms that this place is indeed where you work.
+A guild receptionist recognizes you and asks you about your current task. This confuses you but confirms that this place is indeed where you work.
 
 - **1.** “Can you please remind me what it is again?” - the keeper says it’s an important one
 - **2.** “Oh yeah, the task. Uhh, what was it again?” - the keeper rolls their eyes and says it’s an important task.
@@ -110,22 +110,22 @@ A woman greets you and asks you how the delivery went. You shake your head and s
 
 “You have an important task given upon you. A letter and a package sent by the queen herself. You were supposed to meet with someone to get the package from the village, but everyone said that the village was attacked.”
 
-She asks you if you still have the letter and the package, but you don’t remember the doctor giving you anything. She sighs in worry, but she immediately composes herself.
+She asks you if you still have the letter and the package, but you don’t remember the apothecary giving you anything. She sighs in worry, but she immediately composes herself.
 
-“I do not know how to help you, but I suggest you start with the people who helped you here. Perhaps the doctor who tended to you.”  She presents a crest. “You almost forgot this, but it’s a miracle you did. You need to present this alongside the letter.”
+“I do not know how to help you, but I suggest you start with the people who helped you here. Perhaps the apothecary who tended to you.”  She presents a crest. “You almost forgot this, but it’s a miracle you did. You need to present this alongside the letter.”
 
 A knock is heard from the door. She stands and acknowledges. “You may go, good luck”.
 
 ### **Scene 2:**
 
-You exit the door and went outside the building. You remember something about the doctor saying about someone carrying you to the hospital. They may know something.
+You exit the door and went outside the building. You remember something about the apothecary saying about someone carrying you to the hospital. They may know something.
 
-You go back to the hospital and find the doctor. You ask if they know the whereabouts of the person who carried you back here.
+You go back to the hospital and find the apothecary. You ask if they know the whereabouts of the person who carried you back here.
 
 The answer may depend on what choice you have picked on who to attack in the prologue
 
-- **Attack Armored Person** - the doctor says that the person who was carrying you was one of the invading force and is now on the chopping block. Though you can find him in the prison as the beheading is still in the later afternoon.
-- **Attack Robed Person** - the doctor says that the person has been recently released from the hospital and can be found in the barracks.
+- **Attack Armored Person** - the apothecary says that the person who was carrying you was one of the invading force and is now on the chopping block. Though you can find him in the prison as the beheading is still in the later afternoon.
+- **Attack Robed Person** - the apothecary says that the person has been recently released from the hospital and can be found in the barracks.
 
 You go to the person who saved you earlier. You thank them and ask if they saw something from them being taken before they found you.
 
@@ -464,6 +464,8 @@ You follow what seems to be an endless hallway with no end. You enter another pa
 **To progress the main quest, the player must finish one of the factions’ quest lines until their pre-finale step.**
 
 **After clearing the quest line of a faction, the player may now give the key to the faction and progress to the final quest.**
+
+### **Quest 10: "Chosen One"**
 
 still in progress :D
 
