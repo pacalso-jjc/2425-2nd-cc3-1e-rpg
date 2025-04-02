@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Quest {
         - int questID
@@ -16,3 +17,4 @@ classDiagram
     }
 
     Quest --> Reward
+```
