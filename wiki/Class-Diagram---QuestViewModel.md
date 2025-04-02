@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class QuestViewModel {
         -title: String
@@ -6,3 +7,4 @@ classDiagram
         +updateCompletion(): void
         +displayQuest(): void
     }
+```
