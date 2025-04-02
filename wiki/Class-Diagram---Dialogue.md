@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Dialogue {
         +String text
@@ -10,3 +11,4 @@ classDiagram
         +Dialogue nextDialogue
         +executeAction(): void
     }
+```
