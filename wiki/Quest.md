@@ -52,6 +52,11 @@ flowchart TD
     D --> E[Player: I feel... alright]
     D --> F[Player: I am awake as you can see.]
     D --> G[Player: *Remain Silent*]
+    D --> X[Player: *Try Leaving*]
+
+    X --> Y[You tried to move, but the apothecary prevented you.]
+    Y --> Z[Apothecary: Woah, now. Be careful. Your wounds may open if you move too much. Though, how do you feel?]
+    Z --> E & F & G
 
     E  --> H[Apothecary: You're lucky to feel alright. You had one of the worst injuries out of everyone. A head injury, to be precise. It's a miracle that you still live and breath.]
     F --> I[Apothecary: Hah, yes I do see it. You're lucky that you can still humor with that injury of yours. Though, an injury in the head is no laughing matter.]
@@ -74,7 +79,6 @@ flowchart TD
     U --> V[Apothecary: Hm, just as I fear. You must have forgotten your memories. No matter, what's imporant is that you survive that god-forsaken attack and you get to chance to live again. I thank the generous soul that carried you back here. Had you've been left, you are surely dead. In the meantime, your wounds surprisingly healed quickly, so you're released from the hospital. While you're at it, you can try exploring. Maybe you'll remember something.]
 
     V --> W[Player: Thank you. *Leave the hospital*]
-    V --> X[*Leave the hospital*]
     
 ```
 
@@ -101,17 +105,43 @@ He puts down the box and asks where you’ve been, and he notices your bandages.
 
 “Don’t you remember? It's me! The guy who delivers equipment to your shop every day!”. But you don’t seem to remember. He sighs and accepts the situation that you have forgotten everything. Someone from his job taps into his shoulder, and he hurriedly tries to explain to you where you are right now. He suggests that you try going to your job in hopes that you can remember something. He gives you the direction to take and bids you farewell.
 
+### **Random NPC Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You approach someone. It's a man watching the busy soldiers marching.]
+  A --> B[Player: What's happening?]
+  B --> C[Person: Ach, somethin' 'bout an invadin' force. The amount of soldiers 're thrice 's many compared t'tha last time!]
+
+  D[You approach someone. It's a woman carrying medical supplies.]
+  D --> E[Player: What's happening?]
+  E --> F[Person: An invasion, sire. What's worse is that it's much more crowded because of other people seeking refuge from the war. Oh, those poor people.]
+
+  G[You approach someone. It's a guard standing in front of the hospital.]
+  G --> H[Player: What's happening?]
+  H --> I[Person: Well, you're the first one to get out of the hospital. Lucky man.]
+
+  J[You approach someone. It's a passerby.]
+  J --> K[Player: What happened?]
+  K --> L[Person: It's-. Oh my days, what happened to you?]
+
+```
+
 ### **Person with a Box**
 ```mermaid
 flowchart TD
-  A[Someone catches your attention. It's a person carrying a box. He seems to recognize you, but you don’t.]
-  A --> B[Man with Box: Hey! Where've ya been? Somethin' happened in Withering and you were nowhere! What-]
+  A[Someone catches your attention. It's a person carrying a box. He seems to recognize you, but you don’t. He puts down the boxes and walks toward you.]
+  A --> B[Man with Box: Hey! Where've ya been? Somethin' happened in Wuthering and you were nowhere! What-]
   B --> C[The man stops in the middle of what he was saying and saw the bandages in your head.]
   C --> D[Man with Box: Oh no. Hav' ya got yourself into a mess now laddie?]
 
   D --> E[Player: I did, but I don’t seem to remember much.]
   D --> F[Player: Nope, I just tripped over. You know, very normal injuries and now I don't know anything.]
   D --> G[Player: Who are you, and where am I?]
+  D --> P[Player: Goodbye *Leave*]
+
+  P --> Q[You try to leave but the man grabs you.]
+  Q --> R[Man with Box: Now, don't try leavin' now! What happened?]
+  R --> E & F & G
 
   E --> H[Man with Box: Hah, you and your bloody jokes. Wait. No... Don't tell me-]
   F --> I[Man with Box: Hah, you should look at where you're going. But that injury o' yours ain't something you can get by tripping. And you can't just forget by- Oh no.]
@@ -204,6 +234,10 @@ flowchart TD
   B --> D[Player: Can you remind me what the task is again?]
   B --> E[Player: Oh yeah, the task. Uhh, what was it again?]
   B --> F[Player: What task?]
+  B --> C1[Player: *Leave*]
+
+  C1 --> D1[You try leaving, but you feel that interacting with her will make you remember something.]
+  D1 --> D & E & F
 
   D --> G[Guild Receptionist: It's one of those important tasks that they only give to fast couriers. Like you.]
   E --> H[Guild Receptionist: Oh very funny. You do remember that this is an important task?]
@@ -221,7 +255,7 @@ flowchart TD
   Q --> R[Guildmaster: Have you... What happened?]
   R --> S[Before you can answer, she gets up and checks on the door. She looks like she's making sure that no one is listening. She comes back and sits down.]
 
-  S --> T[Guildmaster: Thanks to your efforts to the Courier Guild, you have been chosen with a special task. A letter and a package from the queen herself. You were supposed to meet with someone in Withering, but the it has been recently attacked. I take it you were unfortunately caught in the middle of it. Do you have the letter and the package?]
+  S --> T[Guildmaster: Thanks to your efforts to the Courier Guild, you have been chosen with a special task. A letter and a package from the queen herself. You were supposed to meet with someone in Wuthering, but the it has been recently attacked. I take it you were unfortunately caught in the middle of it. Do you have the letter and the package?]
   T --> U[Player: I do not remember the apothecary tending to me giving me anything.]
   U --> V[The guildmaster lets out an audible sigh of worry, but immediately composes herself.]
   V --> W[Guildmaster: I do not know how to help you with your matter. But I can suggest you to start with the people who may have helped you get back here in the Capital. Perhaps the apothecary who tended you may know.]
@@ -255,6 +289,9 @@ flowchart TD
   C --> D[Player: No, not at all. I just need to ask a question.]
   C --> E[Player: Yes. The question I am about to ask can cure it.]
   C --> F[Player: Well, yes. But actually, no. Just going to ask soemthing.]
+  C --> N[Player: Goodbye *Leave*]
+
+  N --> O[Apothecary: Oh, leaving soon? Well, have a good day then!]
 
   D --> G[Apothecary: Well, ask away!]
   E --> H[Apothecary: Ha! I'm hoping that injury of yours is not responsible for your humor, but ask away!]
@@ -307,6 +344,23 @@ You exit out of the building and see a crowd of people gathering somewhere.
 
 You follow along the crowd to the plaza and see the Legionnaire alongside a couple of guards and an executioner on a wooden platform. The Legionnaire is bound on a pillory. The crowd throws debris at the Legionnaire whilst being called names and such. “This state’s salvation is at hand! The Prophet alongside his disciples will cleanse the lands of weakness, and from the ashes, a state pure and free from corruption will arise!”, shouted the Legionnaire. The crowd boos the Legionnaire but you can feel a change of emotion in the air. It is anger, with a tinge of fear. “Worry not! We will all be free of suffering by His will! Long live the prophet! Long live the Legio-”. Before the Legionnaire finishes his last words, the executioner’s axe swiftly cuts down his neck followed by a thud on the platform. The Legionnaire is dead, and the crowd angers still. You immediately leave the plaza, and focus on the matter on your hand.
 
+### **Random NPC Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You approach someone. It's a passerby in a hurry.]
+  A --> B[Player: What's the commotion?]
+  B --> C[Person: An execution! An execution is happening!]
+
+  D[You approach someone. It's a farmer, still holding his tools.]
+  D --> E[Player: What's the commotion?]
+  E --> F[Person: A captured Legionnaire. He'll pay for burning my crops!]
+
+  G[You approach someone. It's a confused man.]
+  G --> H[Player: What's happening?]
+  H --> I[Person: Frankly, I don't even know. But the lot of them are going, so I'm coming.]
+
+```
+
 ### **Khaled Dialogue Tree**
 ```mermaid
 flowchart TD
@@ -316,6 +370,10 @@ flowchart TD
   B --> C[Player: A man. More specifically, a Legionnaire. I need to ask him a few questions.]
   B --> D[Player: Just sightseeing. And maybe even asking a few questions from the main attractions.]
   B --> E[Player: Visiting someone.]
+  B --> R[Player: Goodbye *Leave*]
+  
+  R --> S[Before you leave, you remembered that this man may know something. He may be dangerous, but it's better than nothing.]
+  S --> C & D & E
 
   C --> F[Soldier: You better not do anything that you'll regret. Just make it fast.]
   D --> G[Soldier: This is no circus, but make it fast.]
@@ -331,6 +389,13 @@ flowchart TD
   N --> O[Guards approach you and ask you to step aside. They unlocked the cell and went inside, carrying the Legionnaire out of his own cell while being constrained with various contraptions. He stops and looks at you.]
   O --> P[???: You have proven yourself worthy of the Prophet. But the question remains. Are you simply His audience, or will you be part of the grand play?]
   P --> Q[The guard punches the Legionnaire and forced him to keep walking. You leave the gallows in hopes that you will not be punched. It's much more crowded than before, though. Something may be happening.]
+
+```
+
+### **Execution Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You follow along, amongst the crowd of people in a hurry.]
 
 ```
 
@@ -356,6 +421,23 @@ You remember that the person who carried you to the hospital said something abou
 With knowledge of the mysterious Company, you venture out of the capital to investigate even further. Starting with their last known appearance: Wuthering.
 
 You immediately went to the village, hoping that you would find any clues.
+
+### **Random NPC Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You approach someone. It's a mercenary, polishing his weapon.]
+  A --> B[Player: Do you know anything about a caravan around this parts?]
+  B --> C[Person: Ah, I've heard about a certain pecuiliar caravan roaming about. All I know is that they're a private one.]
+
+  D[You approach someone. It's a courier, resting aside.]
+  D --> E[PlayerL Do you know anything about a caravan around this parts?]
+  E --> F[Person: There's this one, currently making money off this war. They usually handle discreet opereations. Y'know, illegal stuff.]
+
+  G[You approach someone. It's a noble scholar, reading a book.]
+  G --> H[Player: Do you know anything about a caravan around this parts?]
+  H --> I[Person: Yes, actually. But, it's the slippery kind of caravan. Very hard to find, and even much harder to tolerate especially on how they operate.]
+
+```
 
 ### **Scene 2:**
 
@@ -383,6 +465,20 @@ You ask him if he remembers what you did before you got drunk and were you carry
 He will also give you the emblem as he found it somewhere in mud while the village was still being attacked.
 
 You thank the tavernkeep and continue your journey.
+
+### **Random NPCs Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
+
+### **Tavernkeeper Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
 
 **The Player is now open to explore anywhere. Though some can only be entered whenever they have done a particular task such as saving the Legionnaire in the Prologue giving you access to the Legion of Ahmed’s Encampment, or when the story permits them to.**
 
@@ -505,7 +601,7 @@ The scout answers that they have not seen anyone nor have they encountered anyon
 
 You thank the scout but before you can leave she stops you and asks for her payment. Though she immediately says that it was a joke and you continue your business finding the Company.
 
-### **Tower Guards**
+### **Tower Guards Dialogue Tree**
 ```mermaid
 flowchart TD
 
@@ -590,7 +686,7 @@ You get his attention and he immediately snaps at you. “Oh, a new customer. Yo
 
 The man explains everything to you. “We took care of the package, indeed. Even the process of procuring it all thanks to this whole Legion thing. What’s even better is you drowning in your own fairytale land. Though, if I only have the package on my hand right now, then you’ll be happy no? But no, just a tad too little too late. Tell me, how well can you chase someone?”. You immediately remember someone exiting the tent earlier. The man confirms that the person indeed has the package and you immediately run after the person.
 
-### **Caravan Guildmaster**
+### **Caravan Guildmaster Dialogue Tree**
 ```mermaid
 flowchart TD
   A[You try to get the attention of guildmaster but before you can do anything, he immediately snaps at you.]
@@ -839,7 +935,7 @@ He hints at you that the tavern isn’t only one that exists, and it can be foun
 
 You thank him for the tea and go to your next task.
 
-### **Museum Owner Dialoge Tree**
+### **Museum Owner and Daughter Dialouge Tree**
 ```mermaid
 flowchart TD
   A[You knock on the door and hear someone respond on the other side of the door.]
