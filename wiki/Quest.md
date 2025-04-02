@@ -262,12 +262,6 @@ This place is said to have a dark history behind it. No one knows why and how it
 
 You see a small group of militia guarding the area of the tower itself. Who would’ve thought that this place is still being guarded? It does raise some questions but you focus on the task instead.
 
-- **Asking the NPCs will answer the following:**
-	- **The tower is off limits**
-	- **No, they do not know the history behind this tower too**
-
-**After exhausting the dialogue options, the story will continue**
-
 You ask the militia if they have seen someone who bears the emblem you are currently showing.
 
 The militia points to their scout.
