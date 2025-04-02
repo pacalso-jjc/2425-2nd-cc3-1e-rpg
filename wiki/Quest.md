@@ -513,6 +513,13 @@ She says that she saw a caravan going in the direction of Summonwater and Hereti
 
 You thank her and continue your task to find the Company.
 
+### **Random NPCs Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
+
 ### **Thomasian Follower Dialogue Tree**
 ```mermaid
 flowchart TD
@@ -555,6 +562,13 @@ You pull the emblem out of your pocket and ask her if she saw anyone who bears t
 She says that she saw a caravan stop by earlier but didn’t know where they went. She hypothesizes that they may have gone to the direction of the Pilgrimage Site or the Heretic’s Tower.
 
 You thank the soldier and she returns to her post. You continue your task of finding the Company elsewhere.
+
+### **Random NPCs Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
 
 ### **Solder Dialogue Tree**
 ```mermaid
@@ -854,6 +868,27 @@ Instead of insisting on you giving him the key, he lets you keep it. “You are 
 
 You set your next destination to the museum in the Capital.
 
+### **Random NPCs Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
+
+### **Councillor Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
+
+### **Guard Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
+
 ### **Old Sage Nik Dialogue Tree**
 ```mermaid
 flowchart TD
@@ -978,6 +1013,13 @@ The locals point you to the direction of a certain location dubbed “The Rat’
 You see a weird block of pipes shaped into a block of cube. Funnily enough, it does look like a rat’s nest, just cube shaped. Upon closer inspection, you can see what seems to be the emblem, though it is unrecognizable until you look closely. It seems that someone doesn’t want to know about this.
 
 A man approaches you and initiates a conversation. He asks what are the theoretical applications of this structure and what could be its origins. Was it a mishap that was built but it worked so they didn’t bother fixing it? Was it something the state was doing for something else big? Who knows, but the man’s specificity on the matter was odd. You ask him if he knows something else about this structure and he nods. You laugh, but you realize that he wasn’t joking. He may know something that will lead you to the answer itself. You share a small knowledge about the pipes and he looks amazed and surprised. “You’re looking for answers, no? I can tell you but not here.” He invites you to his home to further discuss the matter. You follow.
+
+### **Random NPCs Dialogue Tree**
+```mermaid
+flowchart TD
+
+
+```
 
 ### **Mysterious Man Dialogue Tree**
 ```mermaid
