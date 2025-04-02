@@ -42,6 +42,42 @@ The doctor then picks up a mirror and shows it to you. You see a figure, but you
 You aren’t certain if what you see in the mirror is really you or not, but it’s who you are now.
 The doctor hypothesized that the injury may have made you amnesiac. But that doesn’t matter. What matters is that you survived, and he thanks the person that carried you to the hospital whoever they may be. In the meantime, the doctor releases you from the hospital. He asks you to try exploring. Maybe you can remember something from exploring the place.
 
+### **Apothecary Dialogue Tree**
+```mermaid
+flowchart TD
+    A[You wake up with blurried vision, lying on a bed. You try looking around and see rows of beds filled with people groaning. A man notices that you have woken up.]
+    A --> B[???: Easy now! You wouldn't want to put more pressure on your wound.] --> C[Player: W-what happened?]
+
+    C --> D[Apothecary: The Legion invaded, and you were injured in the attack. Luckily, someone carried you out of that nasty battle. How do you feel?]
+    D --> E[Player: I feel... alright]
+    D --> F[Player: I am awake as you can see.]
+    D --> G[Player: *Remain Silent*]
+
+    E  --> H[Apothecary: You're lucky to feel alright. You had one of the worst injuries out of everyone. A head injury, to be precise. It's a miracle that you still live and breath.]
+    F --> I[Apothecary: Hah, yes I do see it. You're lucky that you can still humor with that injury of yours. Though, an injury in the head is no laughing matter.]
+    G --> J[Apothecary: I know that it might be confusing, but you're lucky even with the injury in that head of yours. Luckier even to be able to breath.]
+
+    H & I & J --> K[Apothecary: Serious matters aside. Pray tell, what is your name?]
+    K --> L[Player: My...  name. It's...]
+    L --> M[You try to say your name, but you somehow can’t. You try to mutter something that resembles a name.]
+    M --> N[Creation of Name of Character]
+
+    N --> O[You didn’t know if it was really your name or someones, but it’s who you are for the time being.]
+    O --> P[The apothecary looks at you with a hint of confusion, but continues regardless]
+    P --> Q[Apothecary: Well, *Player*, I'm going to have you to look over here.]
+    Q --> R[The apothecary pulls out a small mirror out of the bedside drawer. You see a face, and you do not recognize it]
+    R --> S[Character Creation]
+
+    S --> T[You aren’t certain if what you see in the mirror is really you or not, but it’s who you are now.]
+    T --> U[You look away from the mirror and you see the apothecary looking at you deeply. As if he's scrutinizing you.]
+
+    U --> V[Apothecary: Hm, just as I fear. You must have forgotten your memories. No matter, what's imporant is that you survive that god-forsaken attack and you get to chance to live again. I thank the generous soul that carried you back here. Had you've been left, you are surely dead. In the meantime, your wounds surprisingly healed quickly, so you're released from the hospital. While you're at it, you can try exploring. Maybe you'll remember something.]
+
+    V --> W[Player: Thank you. *Leave the hospital*]
+    V --> X[*Leave the hospital*]
+    
+```
+
 ### **Scene 3**
 
 You are now outside the hospital and are now free to roam and explore. Everyone seems to be busier than usual, especially the number of soldiers marching outside the capital.
@@ -65,6 +101,31 @@ He puts down the box and asks where you’ve been, and he notices your bandages.
 
 “Don’t you remember? It's me! The guy who delivers equipment to your shop every day!”. But you don’t seem to remember. He sighs and accepts the situation that you have forgotten everything. Someone from his job taps into his shoulder, and he hurriedly tries to explain to you where you are right now. He suggests that you try going to your job in hopes that you can remember something. He gives you the direction to take and bids you farewell.
 
+### **Person with a Box**
+```mermaid
+flowchart TD
+  A[Someone catches your attention. It's a person carrying a box. He seems to recognize you, but you don’t.]
+  A --> B[Man with Box: Hey! Where've ya been? Somethin' happened in Withering and you were nowhere! What-]
+  B --> C[The man stops in the middle of what he was saying and saw the bandages in your head.]
+  C --> D[Man with Box: Oh no. Hav' ya got yourself into a mess now laddie?]
+
+  D --> E[Player: I did, but I don’t seem to remember much.]
+  D --> F[Player: Nope, I just tripped over. You know, very normal injuries and now I don't know anything.]
+  D --> G[Player: Who are you, and where am I?]
+
+  E --> H[Man with Box: Hah, you and your bloody jokes. Wait. No... Don't tell me-]
+  F --> I[Man with Box: Hah, you should look at where you're going. But that injury o' yours ain't something you can get by tripping. And you can't just forget by- Oh no.]
+  G --> J[Man with Box: I know you have one hell of a humor but are you really...?]
+
+  H & I & J --> K[Man with Box: Don't you remember? I'm the man who comes by your work and delivers equipment!]
+  K --> L[You try to recall, but don't seem to remember anything. He sighs with worry, but he looks like he accepted your current situation.]
+  L --> M[Before he tries to say something, a person taps into his shoulder and talks to him. He turns around to you while the person is waiting for him]
+  M --> N[Man with Box: Ach, I've got a tight schedule to follow laddie. I wish I can talk to you more, but I can help you. There's a courier service building just by the barracks. If you keep going in this direction, you'll get there in no time. Maybe it can help you to remember. Take care laddie.]
+
+  N --> O[Thank you, you take care too. *Leave]
+
+```
+
 With the directions given you try to get to the place, but groups of people block your way. It seems to be a charity service being done by a religion asking for the people who have the capacity to be a warrior join the militia in aid of the defense of the state. They are also asking for donations of provisions to aid injured people and such. You try finding another way to the place by going through a narrow pathway
 
 Suddenly, a menacing armored person confronts you halfway through the narrow pathway. “You”, he says in an authoritative voice, pointing his sword at you. “You’re the one who barely survived the attack at the village”. “People around here have been talking. That you have been very lucky. But me? I think you’re more than lucky. You have been chosen to be in a bigger role than you can imagine.” He plants his sword in the ground. “Meet me in the Pilgrimage Site. We will discuss this further when the time comes.” You hear a commotion behind you, and the moment you look back, the person disappears.
@@ -76,6 +137,25 @@ Emerging from the pathway, you see the barracks in front of you. A person recogn
 **This is the part where the player can choose their class**
 
 You pick up everything you need and the person comes back. “Oh good, you’re all ready. Now, leave. I still have a lot of things to tend to.” Another commotion happens and he screams at the door. “WILL YOU PEOPLE WAIT YOUR TURN”. Before any trouble begins, you immediately leave the barracks and continue your task of finding the place.
+
+### **Armorer Dialogue Tree**
+```mermaid
+flowchart TD
+  A[Emerging from the pathway, you see the barracks in front of you. A crowd of people is seen in the entrance and they seem to be keen in joining the war. A man in the entrance notices you and immediatly approaches you]
+  A --> B[Armorer: No time to waste! You're behind schedule as is!]
+  B --> C[The armorer pulls you into the barracks. It looks much more busier than usual thanks to the war. He immediately you into a room full of weapon racks and armor stand, though some are missing its weapons and armors.]
+  C --> D[Armorer: For someone who has an important task, you sure are late! Here, choose whatever you want or need. You are going to need it for that task. Not to mention, a lot of volunteers have been draining the barracks of equipment as you can see.]
+  D --> E[You hear shouting outside the room, the armorer shouts back.]
+  E --> F[Armorer: Give me a moment, for God's sake! I'm coming!]
+  F --> G[The armorer rushes back out of the room. This could be a good time to pick out the equipment you need. It's dangerous out there.]
+  G --> H[Character Creation]
+  H --> I[You pick up everything that you need and now are ready for any dangers that face you. The armorer pops his head out of the doorway to check on you.]
+  I --> J[Armorer: Done already? Good, now leave. I still have a lot of things to tend to as you can see.]
+  J --> K[Another commotion can be heard outside. You can see the armorer's patience leaving his body.]
+  K --> L[Armorer: CAN YOU PEOPLE WAIT FOR YOUR TURN?]
+  L --> M[You leave the barracks as soon as you can. You fear what the armorer would do if you were to stay longer.]
+  
+```
 
 ### **End of Prologue/Quest 1**
 
@@ -116,6 +196,44 @@ She asks you if you still have the letter and the package, but you don’t remem
 
 A knock is heard from the door. She stands and acknowledges. “You may go, good luck”.
 
+### **Courier Guild Dialogue Tree**
+```mermaid
+flowchart TD
+  A[From the crowd of people waiting for their turn, you can see someone trying to get your atterntion. It's the Courier Service Keeper. You approach her.]
+  A --> B[Guild Receptionist: Hey! Have you finished your task yet?]
+  B --> D[Player: Can you remind me what the task is again?]
+  B --> E[Player: Oh yeah, the task. Uhh, what was it again?]
+  B --> F[Player: What task?]
+
+  D --> G[Guild Receptionist: It's one of those important tasks that they only give to fast couriers. Like you.]
+  E --> H[Guild Receptionist: Oh very funny. You do remember that this is an important task?]
+  F --> I[Guild Recpetionist: Huh. Well, all I know is that it's an important one.]
+
+  G & H & I --> J[A person exclaims on you cutting the line and asks you to wait for your turn. The receptionist reacts with a dull face. She seems to be very exhausted to be answer the person.]
+  J --> K[Guild Receptionist: Well, if you have forgotten your task for some reason, you can go inside and check with the guildmaster. Just go into the door at the end of the building.]
+
+  K --> L[You enter the building and see piles upon piles of parchment paper and boxes being sorted by a handful amount of people. You see the door at the end of the room that the receptionist said to you.]
+  L --> M[You knock on the door and hear a response.]
+  M --> N[Guildmaster: Come in.]
+  N --> O[You open the door and the guildmaster greets you. She gives you a seat.]
+  O --> P[Guildmaster: So, I pray that the delivery went well?]
+  P --> Q[You shake your head and shrug. The guildmaster is confused but sees your bandaged injuries.]
+  Q --> R[Guildmaster: Have you... What happened?]
+  R --> S[Before you can answer, she gets up and checks on the door. She looks like she's making sure that no one is listening. She comes back and sits down.]
+
+  S --> T[Guildmaster: Thanks to your efforts to the Courier Guild, you have been chosen with a special task. A letter and a package from the queen herself. You were supposed to meet with someone in Withering, but the it has been recently attacked. I take it you were unfortunately caught in the middle of it. Do you have the letter and the package?]
+  T --> U[Player: I do not remember the apothecary tending to me giving me anything.]
+  U --> V[The guildmaster lets out an audible sigh of worry, but immediately composes herself.]
+  V --> W[Guildmaster: I do not know how to help you with your matter. But I can suggest you to start with the people who may have helped you get back here in the Capital. Perhaps the apothecary who tended you may know.]
+
+  W --> X[She pulls out something from the cabinet and presents it to you. It's a crest.]
+  X --> Y[Guildmaster: You almost forgot this, but it's a miracle you did. You need this alongside the letter so you can deliver the package.]
+  Y --> Z[A knock is heard from the door. She stands and acknowledges before leading you to the door.]
+  Z --> A1[Guildmaster: You may go, and may God guide you. Good luck.]
+  A1 --> B1[You exit out of the door and went outside the building. It's time to visit the hospital again, for other reasons.]
+
+```
+
 ### **Scene 2:**
 
 You exit the door and went outside the building. You remember something about the doctor saying about someone carrying you to the hospital. They may know something.
@@ -127,9 +245,50 @@ The answer may depend on what choice you have picked on who to attack in the pro
 - **Attack Armored Person** - the doctor says that the person who was carrying you was one of the invading force and is now on the chopping block. Though you can find him in the prison as the beheading is still in the later afternoon.
 - **Attack Robed Person** - the doctor says that the person has been recently released from the hospital and can be found in the barracks.
 
+### **Apothecary Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You remember the apothecary talking about someone carrying you back here in the capital. This person may have something that can help you.]
+  A --> B[You go back to the hospital and find the apothecary who tended you. The assistant points to the apothecary tending to another injured person. You tap his shoulder.]
+  B --> C[Apothecary: Back already? Are you feeling unwell?]
+
+  C --> D[Player: No, not at all. I just need to ask a question.]
+  C --> E[Player: Yes. The question I am about to ask can cure it.]
+  C --> F[Player: Well, yes. But actually, no. Just going to ask soemthing.]
+
+  D --> G[Apothecary: Well, ask away!]
+  E --> H[Apothecary: Ha! I'm hoping that injury of yours is not responsible for your humor, but ask away!]
+  F --> I[Apothecary: Missing memories is considered unwell, but go on. Ask away!]
+
+  G & H & I --> J[Player: Do you know the man who carried me here?]
+  J --> K[*If the player attacked the robed person: Apothecary: I do, and the man was recently released for his minor injuries. You can find him in the entrance of the hospital.]
+  J --> L[*If the player attacked the armored person: Apothecary: Oh, that man. He was... arrested. The man who took you back was a Legionnaire who asked to heal you. You looked like you weren't one of them so you were taken in. I can't say the same about the Legionnaire. He may be in the Capital gallows. You be careful with that man, whatever you're going to do.]
+
+  K & L --> M[You thank the apothecary once again. You have set your path to the man who saved you.]
+
+```
+
 You go to the person who saved you earlier. You thank them and ask if they saw something from them being taken before they found you.
 
 They explain that there was someone who took the package from you discreetly. Though it looked like one of them wore the emblem of the Caravan Company.
+
+### **Soldier Dialouge Tree**
+```mermaid
+flowchart TD
+  A[You went outside the hospital and see the man who saved you. He's the same man whom you saved when the village was under attacked. You approached the man and he was surprised to see you.]
+  A --> B[Soldier: Well, I'll be! I didn't expect you to be walking like nothing ever happened. Especially with that injury of yours! Thanks again for what you did back then. Had you not interfered, I might've been stuck in that godforsaken hospital groaning. Or worse, in a grave.]
+  B --> C[Player: You're welcome. I have a question to ask to you by the way.]
+  B --> D[Player: You're welcome. *Leave*]
+
+  C --> E[Soldier: Hm? What is it?]
+  E --> F[Player: I was carrying something when the village was attacked. A letter and a package. Is there a chance you may have seen it when you carried me back?]
+  F --> G[Soldier: No, I didn't see you carrying anything. Though, when I did come back to you after you were out cold, someone was by your body. I think its one of those roaming caravan service or something. I'm sorry if I can't help you much.]
+  G --> H[Player: It's alright, thank you.]
+  H --> I[You bid farewell to the soldier and went to your business. It's much more crowded than before, though. Something may be happening.]
+
+  D --> J[Soldier: Oh, before you go. You must know that there was someone who was by your body when I went to carry you. It's one of the caravan service, I think.]
+  J --> I
+```
 
 **If the player saves the robed person, they will invite the player to The Legion of Ahmed, giving him a keyword that grants him to enter the encampment near the village.** 
 
@@ -147,6 +306,33 @@ You exit out of the building and see a crowd of people gathering somewhere.
 	- **Something is said to be happening, so they went along**
 
 You follow along the crowd to the plaza and see the Legionnaire alongside a couple of guards and an executioner on a wooden platform. The Legionnaire is bound on a pillory. The crowd throws debris at the Legionnaire whilst being called names and such. “This state’s salvation is at hand! The Prophet alongside his disciples will cleanse the lands of weakness, and from the ashes, a state pure and free from corruption will arise!”, shouted the Legionnaire. The crowd boos the Legionnaire but you can feel a change of emotion in the air. It is anger, with a tinge of fear. “Worry not! We will all be free of suffering by His will! Long live the prophet! Long live the Legio-”. Before the Legionnaire finishes his last words, the executioner’s axe swiftly cuts down his neck followed by a thud on the platform. The Legionnaire is dead, and the crowd angers still. You immediately leave the plaza, and focus on the matter on your hand.
+
+### **Khaled Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You went to the gallows and tried to enter. A soldier stops you.]
+  A --> B[Solder: Halt! What is your business here?]
+
+  B --> C[Player: A man. More specifically, a Legionnaire. I need to ask him a few questions.]
+  B --> D[Player: Just sightseeing. And maybe even asking a few questions from the main attractions.]
+  B --> E[Player: Visiting someone.]
+
+  C --> F[Soldier: You better not do anything that you'll regret. Just make it fast.]
+  D --> G[Soldier: This is no circus, but make it fast.]
+  E --> H[Soldier: Ah, well then. Make it fast.]
+
+  F & G & H --> I[You enter inside the building where prisoners are being kept. It's a hallway full of locked doors with prisoners mumbling, screaming, or minding their own business. You peek them one by one, walking along the hallway until you see a robed man. His clothes are covered in mud and blood. You better hope that it's from his injuries and not someones. He immediately recognized you.]
+
+  I --> J[???: Ahh, my savior. What may be your business here?]
+  J --> K[Player: I'm here to ask if you see a letter and a package when you were carrying me back here.]
+  K --> L[???: Ah, that I may not answer in full clarity. But I didn't say I was not answering it. A man, who bears an insignia, was by you when you were... Resting.]
+  L --> M[You thank him and ask him if he wants to escape or not.]
+  M --> N[???: My part here is not yet in play. But yours is just starting.]
+  N --> O[Guards approach you and ask you to step aside. They unlocked the cell and went inside, carrying the Legionnaire out of his own cell while being constrained with various contraptions. He stops and looks at you.]
+  O --> P[???: You have proven yourself worthy of the Prophet. But the question remains. Are you simply His audience, or will you be part of the grand play?]
+  P --> Q[The guard punches the Legionnaire and forced him to keep walking. You leave the gallows in hopes that you will not be punched. It's much more crowded than before, though. Something may be happening.]
+
+```
 
 ### **End of Quest 2**
 
@@ -231,6 +417,26 @@ She says that she saw a caravan going in the direction of Summonwater and Hereti
 
 You thank her and continue your task to find the Company.
 
+### **Thomasian Follower Dialogue Tree**
+```mermaid
+flowchart TD
+  A[The only logical reason was to ask a follower of Thomasia as they may have seen a caravan passing by. You ask the nearest one and the follower doffs her cowl.]
+  A --> B[Thomasian Follower: Greetings. Are thoust here for pilgrimage?]
+  B --> C[Player: No, I'm afraid not. I'm looking for someone. *Show Emblem*]
+  B --> D[Player: Just looking around, finding someone. *Show Emblem*]
+  B --> E[Player: Goodbye *leave*]
+
+  E --> F[Thomasian Follower: Safe travels and may St. Thomas be with you.]
+
+  C & D --> G[You present the emblem to the follower and ask her if she saw anyone passing through who bears this emblem.]
+
+  G --> H[*If the Company is present in this place*: Thomasian Follower: Ah, yes. They have seeked temporary refuge nearby.]
+  H --> I[The follower gives you the direction to their camp and you thank her.]
+
+  G --> J[*If the Company is not present: Apologies, but I do not know the people you seek. Though, a group of people passed by who seems to be the ones you are looking for.]
+  J --> K[She gives you the directions of where the company last went. To the direction of Heretic Tower and Summonwater Village. You thank her and continue your quest.]
+```
+
 ### **Summonwater Village:**
 
 You enter the village in hopes that you will find a trace of the Company.
@@ -253,6 +459,27 @@ You pull the emblem out of your pocket and ask her if she saw anyone who bears t
 She says that she saw a caravan stop by earlier but didn’t know where they went. She hypothesizes that they may have gone to the direction of the Pilgrimage Site or the Heretic’s Tower.
 
 You thank the soldier and she returns to her post. You continue your task of finding the Company elsewhere.
+
+### **Solder Dialogue Tree**
+```mermaid
+flowchart TD
+  A[While knocking on people's doors, a soldier approaches you. Maybe you should've left the people to their business.]
+  A --> B[Solder: Halt! What is your business? Don't you know that you people can't be outside during this time?]
+  B --> C[Player: Apologies, but I am looking for someone important.]
+  B --> D[Player: I was just asking around if someone here knows someone.]
+  B --> E[Player: Apologies. *Leave*]
+
+  E --> G[Soldier: Alright, apologies accepted. Just don't go knocking again. You can ask us instead.]
+
+  C & D --> F[To avoid any more trouble, you back away from the door. You instead show the emblem to the soldier in hopes that she may know something.]
+
+  F --> H[*If the Company is present in this place: Soldier: Hey, I recognize this. A group of people just passed by and camped in a spot around here.]
+  H --> I[She gives you the directions on where the Company is currently located. You thank her and continue your quest.]
+
+  F --> J[*If the company is not present*: Soldier: Sorry, but I didn't see anyone who wears that emblem. A group of people did pass around here. Maybe they're the one you're looking for.]
+  J --> K[She gives you the direction of where the company last went. To both directions of the Thomasian Pilgrimage Site and Heretic Tower. You thank her and continue your quest.]
+
+```
 
 ### **Outside of Heretic’s Tower:**
 
@@ -278,6 +505,68 @@ The scout answers that they have not seen anyone nor have they encountered anyon
 
 You thank the scout but before you can leave she stops you and asks for her payment. Though she immediately says that it was a joke and you continue your business finding the Company.
 
+### **Tower Guards**
+```mermaid
+flowchart TD
+
+  A[You approach the group of guards stationed at the grounds. They immediately stop you in your tracks.]
+  A --> B[Tower Guard 1: Halt! Stop where you are right now!]
+  B --> C[Tower Guard 2: Yeah, what he said! You wouldn't want an arrow in your head now, would you?]
+  C --> D[Tower Guard 3: Maybe not like what she said, but one more step and maybe you'll have one.]
+
+  D --> E[Player: I'm just here to ask a question.]
+  D --> F[Player: Woah now, I'm not an idiot to take 3 people at once now. Just needed to ask a question.]
+  D --> G[Player: Yeah, no. *Leave*]
+
+  G --> H[Tower Guard 2: Yeah, that's what I thought! See that? Hah! Only words!]
+  H --> I[Tower Guard 3: Yeah, words. That, and your arrow pointed at his head.]
+
+  J[*If player returns* Tower Guard 1: Halt! Stop right there!]
+  J --> K[Tower Guard 2: Wait a minute, You again? You really want that arrow in your head, huh?]
+  K --> L[Tower Guard 3: Stop with the arrow!]
+
+  L --> M[*Reuse dialogue Choices]
+  M --> E & F & G
+
+  E & F --> N[Tower Guard 1: What is your question?]
+  N --> O[Tower Guard 3: Just don't take a step forward.]
+
+  O --> P[Player: Have you seen anyone passing by who bears this emblem? *Show Emblem*]
+  O --> Q[Player: *Take a step forward*]
+
+  Q --> R[The 2nd tower guard shoots her arrow at you and fortunately, it missed. Maybe you shouldn't do that again if you wanna keep that head of yours.]
+  R --> S[Tower Guard 2: T-that was only a warning shot! I didn't miss or anything!]
+  S --> T[Tower Guard 3: You threaten someone only for you to miss? Very impressive.]
+
+  P --> U[Tower Guard 2: Throw it over! We don't have eyes of an hawk, you eejit.]
+  U --> V[Player: *Throw Emblem Over*]
+  U --> W[Player: No, I don't think so. *Don't Throw Emblem Over*]
+
+  W --> X[Tower Guard 2: We're not thieves, y'know? Just throw it over!]
+  X --> V
+
+  V --> Y[You threw the emblem over to the tower guards' side. The archer didn't catch it in time and instead, the emblem hit her in the head. You can see the other tower guard snickering.]
+  Y --> Z[Tower Guard 2: Yeah, yeah. I almost had it y'know?]
+
+  Z --> A1[Silence followed as the tower guards examined the emblem.]
+
+  A1 --> B1[*If the company is present in this place*: Tower Guard 2: Yeah, we've seen some. They set up camp near here.]
+  B1 --> C1[She, and one of the tower guard, approaches you and gives you directions to the Company's camp site.]
+  C1 --> D1[You thank them and asked for the emblem. The archer gives it to you halfway before being snatched back.]
+  D1 --> E1[Tower Guard 2: Ah ah. Pay up first.]
+  E1 --> F1[The other tower guard snatches the emblem and gives it back to you.]
+  F1 --> G1[Tower Guard 2: Aw, no fair.]
+  G1 --> H1[You thank them again and followed the directions to the Company.]
+
+  A1 --> I1[*If the Company is not present*: Tower Guard 2: Sorry, but we didn't see anyone. A group of people passed by though. To Summonwater and The Pilgirmage Site. Maybe they're the ones you're looking for. Or not. Not my fault of you get lost.]
+  I1 --> J1[You asked for the emblem. The archer, alongside one of the tower guard, approaches you and gives it to you halfway before being snatched back.]
+  J1 --> K1[Tower Guard 2: You know our services aren't free, right?]
+  K1 --> L1[The other tower guard snatches the emblem and gives it back to you.]
+  L1 --> M1[Tower Guard 2: Alright, fine. You're no fun y'know that?]
+  M1 --> N1[You thank them and followed the directions to where the Company may have gone to.]
+
+```
+
 **If the Caravan Company is in the vicinity:**
 
 She remembers someone passing by who bears the symbol. They point the direction of where the person went and you immediately follow.
@@ -300,6 +589,56 @@ You get his attention and he immediately snaps at you. “Oh, a new customer. Yo
 - **Bribe the man - you comb through your pockets and present a hefty sum. The man’s eyes brighten and show a big, shin-eating grin. The man will answer any of your questions.**
 
 The man explains everything to you. “We took care of the package, indeed. Even the process of procuring it all thanks to this whole Legion thing. What’s even better is you drowning in your own fairytale land. Though, if I only have the package on my hand right now, then you’ll be happy no? But no, just a tad too little too late. Tell me, how well can you chase someone?”. You immediately remember someone exiting the tent earlier. The man confirms that the person indeed has the package and you immediately run after the person.
+
+### **Caravan Guildmaster**
+```mermaid
+flowchart TD
+  A[You try to get the attention of guildmaster but before you can do anything, he immediately snaps at you.]
+  A --> B[Caravan Guildmaster: Ahh, a new customer. Come in, come in! How can we offer our services? Do you need to acquire something? Peruse our catalogues, or have you something else in mind?]
+
+  B --> C[Player: I'm here for a package.]
+  B --> D[Player: Just looking for something. A package to be exact, recently stolen?]
+  B --> E[Player: Give me a moment, I'll be right back]
+
+  E --> F[Caravan Guildmaster: Y'know, something tells me that you need something from me. Am I right? I'm guessing that you already know how hard it is to find us.]
+  F --> G[The Company wasn't as hard to find as he claims to be, but he is right about one thing. Whatever lead you need to getting the package and letter back, it's right then and there. You can't leave now.]
+  G --> C & D
+
+  C --> H[Caravan Guildmaster: A package? Did you lose your way to a nearby Courier Guild or confuse us for one? Unless you DO have one, I suggest you show some money first.]
+  D --> I[Caravan Guildmaster: Well, we might have some. With the right money of course.]
+
+  H & I --> J[You know this man knows something, but he's not going to give it to you without something in return. The question is: do you have enough? Either way, you'll get it. One way or the other.]
+
+  J --> K[*State Your Purpose*]
+  J --> L[*Threaten the Man*]
+  J --> M[*Bribe the Man*]
+
+  K --> N[You state your purpose. You are here to retrieve the package sent by the queen herself that has been recently stolen by one of their members. The guildmaster looks at you intensely and laughs.]
+  N --> O[Caravan Guildmaster: Hah! You almost got me with that one. Where did you learn to do that? I wan't to speak to them and SHAME them for how bad you are.]
+  O --> P[He laughs it off as some sort of unfunny attempt to get one of his items. You present the ring that was given earlier to you and he immediately stops.]
+  P --> Q[Caravan Guildmaster: Hah, nice try- W-wait, is that the...?]
+  Q --> R[Suddenly, the emotion in the tent changed. It was filled with cunning, but now, it is filled with fear.]
+  R --> S[Caravan Guildmaster: A-alright, let's calm a little bit. S-shall we? I-I'll answer anything you want, just don't report to the Queen o-okay?]
+
+  L --> T[You threaten the man, readying your weapon at him. You do not have the time to play tricks with him anymore. He points at you and waves his pointing finger.]
+  T --> U[Caranvan Guildmaster: Tsk, tsk, tsk. Not here. Wouldn't want any goods being damaged now, would I?]
+  U --> V[Suddenly, something grabbed you from behind and threw you away from the tent and into the outside. You see two big men cracking their fists and neck. Maybe you should've forked the gold over, but this is the only way to get to that package. You ready yourself.]
+
+  V --> W[*Combat Sequence*]
+
+  W --> X[The guards backed away and immediately ran away. They we're no match for your skills. You confront the guildmaster inside the tent afterwards.]
+  X --> Y[Caravan Guildmaster: A-alright, alright. I-I'll tell you everything, please don't kill me!]
+
+  M --> A1[*If you have the necessary money*: You give up a hefty amount of gold to the guildmaster. You hope it was enough for him to give up the package. His eyes brighten immediately, showing a big, shin-eating grin alongside it.]
+  A1 --> B1[Caravan Guildmaster: Ahh, yes. I seem to remember something. A package from the queen, right?]
+
+  S & Y & B1 --> C1[Caravan Guildmaster: We took care of the package, indeed. Even the process of procuring it all thanks to this whole Legion thing. What’s even better is you drowning in your own fairytale land. Though, if I only have the package on my hand right now, then you’ll be happy no? But no, just a tad too little too late. Tell me, how well can you run after someone?]
+
+  C1 --> D1[You remember someone exiting the tent earlier before confronting the guildmaster. Is he the man that was carrying your package?]
+  D1 --> E1[Caravan Guildmaster: I know that look. You're thinking to yourself if he is the one who's holding what your looking for, right? Who knows, maybe it was already delivered.]
+  E1 --> F1[Wasting no time, you immediately give chase to the man. You hope it wasn't too late.]
+
+```
 
 ### **End of Quest 3**
 
@@ -332,6 +671,42 @@ In the middle of the fight, the package is damaged. Out flies a key into the mud
 Curiosity consumes you. This key, sent by the queen herself, holds something more than it looks like. Why would a key be this important? Better yet, why would anyone want it? For only a little gold? The man who was keeping it looked like they were protecting it with their life but they stopped and gave it to you in hopes of you understanding. There is certainly something going on, and you must uncover it.
 
 You now set your destination to Fort Faroth.
+
+### **Courier Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You cornered him into an alley, both of you gasping for air. He faces at you, hunched over.]
+  A --> B[Courier: Y-you... don't know... *gasp* what you're doing.]
+  B --> C[You see him reach for something in his back.]
+  C --> D[Courier: Listen, kid. Turn back. What you're trying to get back is something far more important than you can imagine.]
+  D --> E[He slowly unsheathes something from his back.]
+  E --> F[Courier: Turn around right now and tell whoever you're serving right now that you've lost this thing. Walk away from it and forget about it.]
+
+  F --> G[Player: I can't do that. Please, give me the package.]
+  F --> H[Player: I'm sorry, but that package is mine. And you're going to give it to me now.]
+  F --> I[Player: Ok *Leave*]
+
+  I --> J[What are you doing? The man who has the package, your task in the first place, is right there! You can't walk away, not here and definitely not now.]
+  J --> G & H
+
+  G --> K[Courier: Don't make me do this.]
+  H --> L[Courier: You'll have to take it from me!]
+
+  K & L --> M[He reveals two daggers and lunged forward. *Combat Scenario*]
+
+  M --> N[He stops mid-swing, as if he hesitated to attack you. You took the chance and sweeped him from his feet. He falls over and out flies a box and a letter. The courier readies his weapons once again, but lets go both. He surrenders.]
+  N --> O[Courier: Take it. I don't want to take any part in this anyway.]
+  O --> P[You approach the fallen items and picked up the letter. The box, however, was damaged and beside it is a key. Is this the package you were supposed to deliver?]
+  P --> Q[You picked it up and cleaned the mud off. It's strangely heavy for a key and is decorated with an emblem and words. You pocket it immediately and leave the alleyway.]
+
+  Q --> R[Courier: Hey, before you go.]
+  R --> S[You stopped and listened to the man.]
+  S --> T[Courier: I can't change your mind earlier, but He can. Fort Faroth, a man who goes by Nik. Find him, and tell him *a knight in the gallows*]
+
+  T --> U[You continue your walk away from the alley after listening to the man. Though, you feel something is amiss.]
+  U --> V[Curiosity consumes you. This key, sent by the queen herself, holds something more than it looks like. Why would a key be this important? Better yet, why would anyone want it? For only a little gold? The man who was keeping it looked like they were protecting it with their life but they stopped and gave it to you in hopes of you understanding. There is certainly something going on, and you must uncover it. You set your next destination to Fort Faroth]
+
+```
 
 ### **End of Quest 4**
 
@@ -383,6 +758,38 @@ Instead of insisting on you giving him the key, he lets you keep it. “You are 
 
 You set your next destination to the museum in the Capital.
 
+### **Old Sage Nik Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You approach the old man and immediately get his attenton. He looks at you and rolls the scroll he was reading.]
+  A --> B[A visitor? Well then, what is your business? I apologize, but I unfortunately have a strict schedule as I still have a lot of things to do.]
+  B --> C[Player: A knight in the gallows.]
+  B --> D[Player: Have you ever heard of a knight? He, unfortunately, is in the gallows.]
+  B --> E[Player: Oh, understood. *Leave*]
+
+  D --> U[He looked at you confused, as if he was trying to understand something that you have said. He raised his eyebrows and muttered something, somewhere along the lines of clever.]
+  U --> F
+
+  C --> F[He looks at you, examining every single detail you have. He looks around and stands up.]
+  F --> G[Old Sage Nik: Well, I've been expecting you, young lad! And with the book that I've been finding for ages? Bah, I'm getting ahead of myself, of course! I'll show you to the library.]
+  G --> H[Confused on what he was talking about, you follow him either way. He leads you into a room with shelfs upon shelfs of books. This is a library, though both of you know that you're here for different matters. You follow him deeper into the library and into a room.]
+
+  H --> I[Old Sage Nik: So, I assume that you have the key, yes?]
+  I --> J[You nod and present the key to the old man. He lower his hands, expecting the key. But before the key even touches his hand, you immediately retract you arm and stated that you're the original courier of the key.]
+  J --> K[Old Sage Nik: Ah, I see. I do hope that you didn't do anything to the man I hired to get it from you. Either way, my deepest apologies.]
+  K --> L[You ask him why he orchestrated the whole ordeal for this key.]
+  L --> M[Old Sage Nik: You have all the reason to give it to the recipient, but since you're here, I guess that you wanted answers behind the key. And answers you shall recieve. Take a seat. It's a long one.]
+
+  M --> N[You take a seat and so does the old man. He clears his throat in preparation. You hope that you're not going to be here all day.]
+  N --> O[Old Sage Nik: To anyone, it's simply nothing but a fancy dandy key. Though, my sources tell me that it's more than that. It controls the entire state, but I do not know how. What I do know is if it fell to the wrong hands, it can spell doom to everyone in this state. I took the key from you for safekeeping, I hope that you understand that, and again, I apologized.]
+  O --> P[He stands up and dusts off his robes.]
+  P --> Q[Old Sage Nik: Well, unfortunately, that is all the time that I have. You'll have to find on your own what that key is for. Luckily, I know where to start. A museum in the capital. You can start there.]
+  Q --> R[You thank him and offer him the key. He insisted you to keep it instead.]
+  R --> S[Old Sage Nik: Now, now. You're the one who's supposed to deliver it after all.]
+  S --> T[You set your next destination to the museum in the Capital]
+
+```
+
 ### **End of Quest 5**
 
 ## **Quest 6: “Of Symbols and Ciphers”**
@@ -399,6 +806,25 @@ It’s an old, normal-looking pipe. What’s different with it is that it bears 
 
 You remember that this used to be a museum, maybe the old owner knows something about the pipe. You ask the barkeeper if he knows where the old owner lives and gives you directions. You exit the tavern and find the old owner.
 
+### **Tavernkeeper Dialouge Tree**
+```mermaid
+flowchart TD
+  A[A man approaches you, he seems to be the keeper of the tavern.]
+  A --> B[Tavernkeeper: Are you one of the Old Sage's men?]
+  B --> C[You nod your head in response.]
+  C --> D[Tavernkeeper: Then follow me, I'll show you something.]
+  D --> E[You follow the keeper to the back of the tavern and into a door. You can hear the voice of the people get weaker when you walk down the door. It appears to be a cellar, where alcohol and any perishables are stored.]
+  E --> F[Tavernkeeper: Here, have a look.]
+  F --> G[You approach the corner where the keeper stands. A pipe stands before you, though it looks bigger than any pipe you've ever seen. It bears the insignia and the scribings that the key features.]
+  G --> H[You ask the keeper if he knows anything about the pipe.]
+  H --> I[Tavernkeeper: Dunno, all I know is that it existed well before the tavern was built. When it was still a museum. The sage's men visited us about this particular thing and told us that this may help them in their research and keep it a secret in the meantime.]
+  I --> J[Not a research, but it is a search for answers. This place used to be a museum, so the owner must be somewhere in the capital. You ask the keeper about the previous owner of the place.]
+  J --> K[Tavernkeeper: Yeah, I know him well. Very kind fella, though he decided to retire and sell the place to us.]
+  K --> L[You ask the keeper if he knew where he lived and the keeper nodded. He gave you directions to where the old owner of lives and you thank him.]
+  L --> M[You feel that this pipe will bring you closer to the mystery of the key. You continue your task, and set your destination to the old owner's place.]
+
+```
+
 ### **Scene 3:**
 
 You stop by a semi-dilapidated building and knock on the door. A woman greets you and kindly asks about your business. You explain that you are finding the owner of the used-to-be museum and she lets you in.
@@ -412,6 +838,32 @@ He explains that there used to be a group of very clever and talented scholars t
 He hints at you that the tavern isn’t only one that exists, and it can be found everywhere. Though, there is only one that is worth investigating. It’s a tough task but it will get you closer to the answer.” He says it is located in the Lower District and bid you farewell and goodluck.
 
 You thank him for the tea and go to your next task.
+
+### **Museum Owner Dialoge Tree**
+```mermaid
+flowchart TD
+  A[You knock on the door and hear someone respond on the other side of the door.]
+  A --> B[???: Just a moment!]
+  B --> C[The door opens and a women greets you.]
+  C --> D[???: Good day. What may your business be?]
+  D --> E[You ask if the owner of the museum live here. She nods and lets you in.]
+  E --> F[Surprisingly, the inside of the house is much more neater than on the outside.]
+
+  F --> G[Daughter: Please, take a seat. I'll call my father. It's been a long time since someone asks for him.]
+
+  G --> H[After a few minutes, an old man greets you while being assisted by his daughter.]
+  H --> I[Museum Owner: Oh, you don't know how long it is since we've had a visitor. Please, take a sit. Help yourself with some tea.]
+  I --> J[After helping yourself to some tea, you asked the old man about the pipe in the tavern.]
+  J --> K[Museum Owner: Oh, I've fear that this moment may come. Please, I beg of you, don't tear it down.]
+  K --> L[You assured the old man that you're not here for the renovations.]
+  L --> M[Museum Owner: *Sighs* That's good to know. It's such a shame for a piece of history to be tore down.]
+  M --> N[You ask the old man on what's the history behind the pipe.]
+  N --> O[Museum Owner: Good thing you asked! It was a certain project by the Majesty herself's group of clever and talented scholars. They bear the symbols of what you see in those pipes, but unfortunately, they disappeard without a trace. And with no information on what their project really was. Some say it's happened when the killings of people involved in science, or witchcraft as they call it. It's a shame, though. The wonders of what they could've done, but oh well. The pipes were one of them, and I still don't know what it does.]
+  O --> P[You tell him that you may be closer on discovering what's the use of the pipes. He looks at you with amazement.]
+  P --> Q[Museum Owner: Kid, I wish I could help you more on this matter, but my bones says otherwise! But, I can still help you in another way. The pipes exists not only in the muse- I mean, tavern. But only one thing is interesting to me. The structure in Lower District. Maybe you'll find answers there.]
+  Q --> R[You thank the man and continue your journey to uncover the origin of the key.]
+
+```
 
 ### **End of Quest 6.**
 
@@ -430,6 +882,44 @@ The locals point you to the direction of a certain location dubbed “The Rat’
 You see a weird block of pipes shaped into a block of cube. Funnily enough, it does look like a rat’s nest, just cube shaped. Upon closer inspection, you can see what seems to be the emblem, though it is unrecognizable until you look closely. It seems that someone doesn’t want to know about this.
 
 A man approaches you and initiates a conversation. He asks what are the theoretical applications of this structure and what could be its origins. Was it a mishap that was built but it worked so they didn’t bother fixing it? Was it something the state was doing for something else big? Who knows, but the man’s specificity on the matter was odd. You ask him if he knows something else about this structure and he nods. You laugh, but you realize that he wasn’t joking. He may know something that will lead you to the answer itself. You share a small knowledge about the pipes and he looks amazed and surprised. “You’re looking for answers, no? I can tell you but not here.” He invites you to his home to further discuss the matter. You follow.
+
+### **Mysterious Man Dialogue Tree**
+```mermaid
+flowchart TD
+  A[You were at awe with the structure you're seeing in front of you that you didn't realize that a man is already standing beside you. He's also looking at the structure.]
+  A --> B[???: Interesting, isn't it? It's not like any other pipes you can see in other places. For what purpose could this structure serve, hm?]
+  B --> C[Player: *Listen*]
+  B --> D[Player: Oh, I know! It's a system of pipes designed to carry rats!]
+  B --> E[Player: I don't have any time for this. *Leave*]
+
+  D --> S[The man raises his brow in shock. It seems like you piqued the interest of the man.]
+  S --> T[???: Hm. It seems like you know more than you look. But how did you-]
+  T --> N
+
+  C --> F[???: Was it a structure that the settlers built beforehand? Or was it just a simple mishap by artisans, left due to its ugliness? Maybe a secret project carried by the Royal Family, no?]
+  F --> G[You're quite amused with his guesses on what the pipe is actually for. Jokingly, you ask him if he knows more about this pipes.]
+  G --> H[???: Quite a lot, actually. To be more precise, everything about it.]
+  H --> I[You laugh, thinking it's a joke. There is no way this man knows everything about this pipes, right? But you realized he was not laughing. He is serious. Could he really know everything about it?]
+
+  I --> J[Player: Then, you know that this was made by scholars, ordered by the Queen herself right?]
+  I --> K[Player: Psh. What, are you also gonna say that this carries rats too?]
+  I --> L[Player: *Stay Silent*]
+
+  K --> U[???: Hm. Quite an answer. Did you-]
+  U --> N
+
+  L --> V[An awkward silence follows, broken by the laughter of the man.]
+  V --> W[???: I was just messing with you! It is a pecuiliar structure, but maybe its origin is pale in comparison to how it looks.]
+  W --> X[It seems that you're getting nowhere, but it feels like this man knows something else. *Leave*]
+
+  J --> M[???: Well, looks like someone did their research. Though, how did you know that the Queen herself-]
+  M --> N[He stopped in the middle of his sentence, as if he realized something.]
+  N --> O[???: Seems like my time has come. You're here to kill me, no?]
+  O --> P[You answered that you're not here for him, but rather for the structure. Or, what's the meaning behind it.]
+  P --> Q[???: Hm, looks like my time hasn't come yet then. Come then, we'll discuss this further in my home.]
+  Q --> R[It seems that the mystery of the pipes will soon come to a close. Though, you still ask yourself a single question. Will it bring you closer to the key's true purpose? Nevertheless, you follow the man to his home.]
+
+```
 
 ### **End of Quest 7.**
 
@@ -454,6 +944,40 @@ You immediately clutch the key in fear of the thought. He sees this and immediat
 Alongside the pipe is a narrow hallway, the man explains it as a pathway to every pipe there is. For maintenance purposes. He tells you a specific direction to follow as it will lead you to where the key will be inserted.
 
 You follow what seems to be an endless hallway with no end. You enter another path according to the directions and you hear people speaking on the other wall. You deduce from the voices that you are inside the upper city gate-keep. You keep going and you see a crack in the wall. You hear someone talking about a key going missing, its importance, and its danger. Upon peeking, it’s the princess of the state talking to someone. The room has an apparatus in the middle with a spot for the key. You go back from the path you came from and now understand that the key was actually a delivery for the princess.
+
+### **Scholar Dialogue Tree**
+```mermaid
+flowchart TD
+  A[???: So, how much do you know about the project?]
+  A --> B[PLayer: The only thing I know is that these pipes are part of something bigger.]
+  A --> C[Player: Oh, you know. The standard stuff. Mysterious pipes, secret project, missing scholars.]
+  A --> D[Player: Just a moment. *Leave*]
+
+  D --> E[You are sitting in front of the man that will possibly answer all your questions. Leaving now will only delay the answers to the mystery.]
+  E --> B & C
+
+  C --> V[Scholar: Well, I'll be. That's quite the information! But, you lack the bigger picture. And I might be able to give you the pieces.]
+  V --> W
+
+  B --> F[Scholar: Ah, you're quite right. Quite. You lack some finer, key details, but I may be able to assist you in that.]
+  F --> W[Scholar: But before that, I apologize for not introducing myself properly. I am one of the scholars who worked on this project.]
+  W --> G[Your previous assumptions are now confirmed. He is one of the scholars that took part in the project. Given that he already clues to you earlier in the structure, it's still a relief that it's confirmed.]
+  G --> H[Scholar: The pipes are designed mainly as a defense mechanism. Though, that wasn't the reason why the pipes were constructed, but rather the beings that will contain said pipes. Magna Parva Sarcinas. If you didn't know, it's latin for small things come in great packages.]
+  H --> I[You remember the key having the same engravings with the same words that he said. What could it possibly mean? While you're at thought, he stands up and picks a book off of his grand bookshelfs and presents it to you in the table.]
+  I --> J[Scholar: I assume that you're wondering why we adapted the words of Magna Parva Sarcinas.]
+  J --> K[He opens the book and flips through pages before showing it to you. Upon seeing the contents of the pages, you were confused.]
+  K --> L[Scholars: Rats! Fascinating, isn't it? The most useless animal, nay, pest, being chosen to become more than what nature has molded them into. We've hoped that the experiments that we have conducted on the little critters bore miracle, but unfortunately, it had not gone well. You can say that they are death incarnate.]
+  L --> M[You feel a shudder in your spine as you connect the dots one by one. The feeling of once learning the truth had replace alleviation with fear.]
+  M --> N[Scholar: I should know, as I have been examining them from the comforts of my home.]
+  N --> O[The scholar stands up and tries to get another book from the shelf. The books tips halfway and a click can be heard. The scholar pulls the bookshelf from the walls and reveals a small, claustrophobic room. In it, is a pipe that bears the insignia and the engravings. The only differenece is that it bears a window, peering into what could be the contents of the pipe be. You try to get closer, and the scholar taps the pipes.]
+  O --> P[Scholar: Whatever they are, they are not rats anymore.]
+  P --> Q[You hear the pipes rumble, as if hundreds of something were scampering up not out of curiosity, but in absolute aggresiveness and hunger. You look closely into the window and suddenly a wave of diseased rats plunge at the window. As if they wanted not just a piece of your face, but your entire body. The sight of bloodthirsty rats make you clutch the key in your pocket out of fear. The scholar notices.]
+  Q --> R[Scholar: So, you hold the key. I know it's supposed to be for the Princess, but think carefully of whom you give that key to. For this key will not bring down a state to its knees. No, it will eat it from the inside and into the out.]
+  R --> S[The scholar lights a torch and points it into the dark side of the room. It appears to be a hallway.]
+  S --> T[Scholar: To prevent any accidents, we built hallways like these to maintain the pipes if they ever one-by-one degrade. Follow this path, and you'll see what that key is for. Where it'll be used.]
+  T --> U[You thank him and proceed to follow the directions he have laid out.]
+
+```
 
 ### **End of Quest 8**
 
