@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: Character
+title: Settings
 ---
 classDiagram
     class Setting {
