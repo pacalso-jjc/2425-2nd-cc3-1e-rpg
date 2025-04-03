@@ -121,7 +121,7 @@ flowchart TD
   H --> I[Person: Well, you're the first one to get out of the hospital. Lucky man.]
 
   J[You approach someone. It's a passerby.]
-  J --> K[Player: What happened?]
+  J --> K[Player: What's happening?]
   K --> L[Person: It's-. Oh my days, what happened to you?]
 
 ```
@@ -356,7 +356,7 @@ flowchart TD
   E --> F[Person: A captured Legionnaire. He'll pay for burning my crops!]
 
   G[You approach someone. It's a confused man.]
-  G --> H[Player: What's happening?]
+  G --> H[Player: What's the commotion?]
   H --> I[Person: Frankly, I don't even know. But the lot of them are going, so I'm coming.]
 
 ```
@@ -395,7 +395,7 @@ flowchart TD
 ### **Execution Dialogue Tree**
 ```mermaid
 flowchart TD
-  A[You follow along, amongst the crowd of people in a hurry.]
+  A[You follow along, amongst the crowd of people in a hurry. ]
 
 ```
 
@@ -436,6 +436,9 @@ flowchart TD
   G[You approach someone. It's a noble scholar, reading a book.]
   G --> H[Player: Do you know anything about a caravan around this parts?]
   H --> I[Person: Yes, actually. But, it's the slippery kind of caravan. Very hard to find, and even much harder to tolerate especially on how they operate.]
+  I --> J[You thank the scholar, but before you leave, she taps you in the shoulder.]
+  J --> K[Person: I forgot to mention, but a telltale sign that they're nearby is if someone saw someone wearing the emblem.]
+  K --> L[You remembered the person who carried you back telling you that they saw someone near your unconcious body bearing a symbol when the attack was happening.  You hope that the caravan is still in the village as you make your way to Wuthering Village.]
 
 ```
 
@@ -469,14 +472,29 @@ You thank the tavernkeep and continue your journey.
 ### **Random NPCs Dialogue Tree**
 ```mermaid
 flowchart TD
+  A[You approach someone. It's a soldier squatting in the nearby ruins of the houses.]
+  A --> B[Player: What happened here?]
+  B --> C[Person: The Legion is what happened. Burned the whole village to the ground, those absolute monsters.]
 
+  D[You approach someone. It's a soldier helping with dousing nearby fires.]
+  D --> E[Player: What happened here?]
+  E --> F[Person: The entire village was burnt down. And where was Thomasia when the village fell? Nowhere! Useless people, the lots of them.]
+
+  G[You approach someone. It's scout holding a map.]
+  G --> H[Player: What happened here?]
+  H --> I[Person: The advance of The Legion. I fear that they may have set up camp nearby now that this village is not worth protecting anymore.]
 
 ```
 
 ### **Tavernkeeper Dialogue Tree**
 ```mermaid
 flowchart TD
-
+  A[Upon charred debris of buildings that were used to be homes, you see a man kneeling over a charred building. You can still see fire from the inside. Upon approaching, the man recognizes you.]
+  A --> B[Tavernkeeper: 'Ey, I remember you. You're that drunkard before the attack, right? I'm sorry, but the business is, well, not doing pretty well.]
+  B --> C[You can indeed confirm that the business is not doing well judging from its still-fresh charred remains. But, you're here on a different business.]
+  C --> D[Player: Do you remember what happened to me before the attack?]
+  C --> E[Player: Well, that's unfortunate. I'm itching for a mug of mead! Though, do you remember anything I did before I got too deep in the mead?]
+  C --> F[I'm sorry for your business.]
 
 ```
 
