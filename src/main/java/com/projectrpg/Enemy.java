@@ -1,4 +1,4 @@
-public class Enemy extends Character {
+public class Enemy {
     public Enemy(int health, String faction) {
         super(health, faction);
     }
