@@ -42,6 +42,8 @@ The doctor then picks up a mirror and shows it to you. You see a figure, but you
 You aren’t certain if what you see in the mirror is really you or not, but it’s who you are now.
 The doctor hypothesized that the injury may have made you amnesiac. But that doesn’t matter. What matters is that you survived, and he thanks the person that carried you to the hospital whoever they may be. In the meantime, the doctor releases you from the hospital. He asks you to try exploring. Maybe you can remember something from exploring the place.
 
+### **Introduction Dialogue Tree**
+
 ### **Apothecary Dialogue Tree**
 ```mermaid
 flowchart TD
@@ -395,7 +397,11 @@ flowchart TD
 ### **Execution Dialogue Tree**
 ```mermaid
 flowchart TD
-  A[You follow along, amongst the crowd of people in a hurry. ]
+  A[You follow along, amongst the crowd of people in a hurry into the plaza. You tried to take a peek at what's happening and see a row of guards in front of a platform where a man is currently bound. You came to realize that this was not just any event. It's an execution. You hear the angry voices of the crowd and alongside it, various rocks being thrown at the prisoner.]
+  A --> B[Crowd: Warmonger!]
+  B --> C[Crowd: You don't belong here!]
+  C --> D[Crowd: ]
+
 
 ```
 
@@ -493,8 +499,20 @@ flowchart TD
   A --> B[Tavernkeeper: 'Ey, I remember you. You're that drunkard before the attack, right? I'm sorry, but the business is, well, not doing pretty well.]
   B --> C[You can indeed confirm that the business is not doing well judging from its still-fresh charred remains. But, you're here on a different business.]
   C --> D[Player: Do you remember what happened to me before the attack?]
-  C --> E[Player: Well, that's unfortunate. I'm itching for a mug of mead! Though, do you remember anything I did before I got too deep in the mead?]
-  C --> F[I'm sorry for your business.]
+  C --> E[Player: Well, that's unfortunate. I'm itching for a mug of mead! But that's for another day. Do you remember anything I did before I got too deep in the mead?]
+  C --> F[Player: I'm sorry for your business. *Leave*]
+
+  D --> G[Tavernkeeper: Well, let me think.]
+  E --> H[Tavernkeeper: Shame, I could've gained another regular. On your matter though...]
+  F --> I[Tavernkeeper: It's alright, mate. But before you leave, you might need to remember what happened before you got drunk...]
+
+  G & H & I --> J[The tavernkeeper stands up and walks in a circular motion, trying to remember.]
+  J --> K[Tavernkeeper: Oh, I know! You were meeting with someone. Another courier like you, I think. You were also carrying a bag at that time and you stuffed something there before getting drunk.]
+  K --> L[Strangely enough, you don't remember the apothecary returning any valuables back to you. Especially the bag. Could've it been taken when the attack was happening.]
+  L --> M[Tavernkeeper: I'm sorry that I didn't prevent you from coming outside. With all that chaos happening, I had to worry about myself first. I hope you understand.]
+  M --> N[You accept the tavernkeeper's apology and thank him. Before going to your business, you remember about the caravan. You asked him if a caravan passed through recently.]
+  N --> O[Tavernkeeper: Actually did! They were digging around for anything they can sell. No respect, no respect at all! If you're looking for them, they went to either the Pilgrimage Site, Summonwater Village, or passed through Heretic's Tower.]
+  O --> P[You thank him again and now set your next destination. The question is: Where will you start your search first?]
 
 ```
 
@@ -534,7 +552,14 @@ You thank her and continue your task to find the Company.
 ### **Random NPCs Dialogue Tree**
 ```mermaid
 flowchart TD
+  A[You approach someone. It's a Thomasian Initiate, muddied and exhausted.]
+  A --> B[Player: Have you seen a caravan passing through?]
+  B --> C[Person: No, sorry. I'm on a journey, and I couldn't keep track of people I pass by, especially with the start of the war. It's getting harder to travel through sites, let alone recognize anyone.]
 
+  D[You approach someone. It's a woman and her sons, waiting amongst other people.]
+  D --> E[Player: Have you seen a caravan passing through?]
+  E --> F[Person: N-no, I haven't! I'm here to prove my faith, y-yes! Didn't heard about a-any caravans around. P-please, stop bothering us.]
+  F --> G[She immediately faced away from you. She seemed to shiver when you approach and asked her. You tried to shrug it off but you see what seems to be scars in her neck. It looks like whatever she's doing right now is to avoid punishment of sorts.]
 
 ```
 
@@ -584,8 +609,17 @@ You thank the soldier and she returns to her post. You continue your task of fin
 ### **Random NPCs Dialogue Tree**
 ```mermaid
 flowchart TD
+  A[You approach a nearby home. You knocked on the door.]
+  A --> B[Person: I-i-is it safe to go out now?]
+  B --> G[It seems like the person doesn't want to go out, you apologized and went on to your business.]
+  
+  C[You approach a nearby home. You knocked on the door.]
+  C --> D[Person: Go away! I'm not opening this door!]
+  D --> H[It seems that they aren't expecitng any visitors. You apologized and went on to your business.]
 
-
+  E[You approach a nearby home. You knocked on the door.]
+  E --> F[Person: Who is that? That a seller? Pray tell, do you sell any food?]
+  F --> I[Unfortunately, you aren't one, You apologized to the person and went on to your business.]
 ```
 
 ### **Solder Dialogue Tree**
