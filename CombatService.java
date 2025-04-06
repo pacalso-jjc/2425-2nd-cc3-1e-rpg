@@ -1,12 +1,49 @@
 public class CombatService {
-    public void attack(Character attacker, Character defender) {
-        int damage = Math.max(attacker.getAttackPower() - defender.getDefense(), 1);
-        defender.takeDamage(damage);
+    private int damage;
+    private int armor;
+    private int initiative;
+    private int accuracy;
 
-        System.out.println(attacker.getName() + " attacks " + defender.getName() + " for " + damage + " damage!");
+    public CombatService(int damage, int armor, int initiative, int accuracy) {
+        this.damage = damage;
+        this.armor = armor;
+        this.initiative = initiative;
+        this.accuracy = accuracy;
+    }
 
-        if (defender.isDefeated()) {
-            System.out.println(defender.getName() + " has been defeated!");
-        }
+    public void basicAttack() {
+        System.out.println("Combatant performs a basic attack, dealing " + damage + " damage!");
+    }
+
+    public void defend() {
+        System.out.println("Combatant raises their shield, reducing incoming damage by " + armor + "!");
+    }
+
+    public void specialAttack() {
+        System.out.println("Combatant performs a special attack with enhanced accuracy, dealing critical damage!");
+    }
+
+    public void charge() {
+        System.out.println("Combatant charges at the enemy, increasing initiative for the next turn!");
+    }
+
+    public String toString() {
+        return "CombatService [Damage=" + damage + ", Armor=" + armor + ", Initiative=" + initiative + ", Accuracy=" + accuracy + "]";
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public int getArmor() {
+        return armor;
+    }
+
+    public int getInitiative() {
+        return initiative;
+    }
+
+    public int getAccuracy() {
+        return accuracy;
     }
 }
