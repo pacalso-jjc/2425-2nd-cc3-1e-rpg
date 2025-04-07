@@ -7,3 +7,4 @@ classDiagram
         +string Type
         +list <weapon> availableGear
     }
+```
