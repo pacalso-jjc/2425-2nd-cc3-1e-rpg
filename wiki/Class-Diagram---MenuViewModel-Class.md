@@ -3,40 +3,40 @@ title: MenuViewModel Diagram
 ---
 classDiagram
 class MenuViewModel {
-    - menuOptions : List<MenuItem>
-    - selectedOption : MenuItem
-    - isVisible : Boolean
-    - title : String
-    - backgroundStyle : Style
-    - keyBindings : Map<String, Function>
-    + showMenu() : void
-    + hideMenu() : void
-    + navigateUp() : void
-    + navigateDown() : void
-    + selectOption() : void
-    + renderMenu() : void
-    + handleInput(key : String) : void
+    - List<MenuItem> menuOptions
+    - MenuItem selectedOption
+    - Boolean isVisible
+    - String title
+    - Style backgroundStyle
+    - Map<String, Function> keyBindings
+    + showMenu()
+    + hideMenu()
+    + navigateUp()
+    + navigateDown()
+    + selectOption()
+    + renderMenu()
+    + handleInput(key String)
 }
 
 class MenuItem {
-    - name : String
-    - action : Function
-    - description : String
-    - icon : Image
-    + execute() : void
+    - String name
+    - Function action 
+    - Stringdescription
+    - Image icon
+    + execute()
 }
 
 class Style {
-    - backgroundColor : String
-    - textColor : String
-    - fontSize : Int
-    - animation : String
+    - String backgroundColor
+    - String textColor
+    - Int fontSize
+    - String animation
 }
 
 class Image {
-    - path : String
-    - width : Int
-    - height : Int
+    - String path
+    - Int width
+    - Int height
 }
 
 MenuViewModel --> MenuItem : manages
