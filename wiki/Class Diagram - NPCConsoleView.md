@@ -4,10 +4,11 @@ title: NPCConsoleView
 ---
 classDiagram
     class NPCConsoleView {
-        +displayNPCDetails(npc: NPC): void
-        +updateNPCStatus(npcId: int, status: String): void
-        +handleUserInput(input: String): void
-        -renderView(): void
+        +displayNPCInfo(npc: NPC): void
+        +listNPCQuests(npc: NPC): void
+        +updateNPCInteraction(npcId: int, interaction: String): void
+        +handleUserCommand(command: String): void
+        -renderDialogueOptions(): void
     }
   
 ```
