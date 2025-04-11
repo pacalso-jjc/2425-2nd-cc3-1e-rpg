@@ -1,14 +1,19 @@
 ```mermaid
 ---
-Title: Character Creation Console View
+title: Character Creation Console View
 ---
 classDiagram
     class CharacterCreationConsoleView {
-        +displayCharacterCreationMenu()
-        +getUserInput()
-        +validateInput()
-        +createCharacter()
+        +displayCharacterCreationMenu() : void
+        +getUserInput() : String
+        +validateInput(input : String) : Boolean
+        +createCharacter() : Character
     }
     
-    CharacterCreationConsoleView --> Character
+    class Character {
+        +display() : void
+    }
+    
+    CharacterCreationConsoleView ..> Character : creates
+
 ```
