@@ -1,0 +1,162 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+
+public class QuestViewModel {
+    private List<Quest> quests;
+    private Quest selectedQuest;
+    
+    public QuestViewModel(List<Quest> initialQuests) {
+        this.quests = new ArrayList<>(initialQuests);
+    }
+    
+    // Core operations
+    public List<Quest> getAllQuests() {
+        return new ArrayList<>(quests);
+    }
+    
+    public List<Quest> getActiveQuests() {
+        return quests.stream()
+                     .filter(q -> "Active".equals(q.getStatus()))
+                     .collect(Collectors.toList());
+    }
+    
+    public List<Quest> getCompletedQuests() {
+        return quests.stream()
+                     .filter(q -> "Completed".equals(q.getStatus()))
+                     .collect(Collectors.toList());
+    }
+    
+    public Quest getQuestById(int id) {
+        return quests.stream()
+                   .filter(q -> q.getId() == id)
+                   .findFirst()
+                   .orElse(null);
+    }
+    
+    public boolean selectQuest(int id) {
+        this.selectedQuest = getQuestById(id);
+        return selectedQuest != null;
+    }
+    
+    public Quest getSelectedQuest() {
+        return selectedQuest;
+    }
+    
+    // State modification
+    public void addQuest(Quest quest) {
+        quests.add(quest);
+    }
+    
+    public boolean updateQuest(Quest updatedQuest) {
+        for (int i = 0; i < quests.size(); i++) {
+            if (quests.get(i).getId() == updatedQuest.getId()) {
+                quests.set(i, updatedQuest);
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    public boolean deleteQuest(int id) {
+        return quests.removeIf(q -> q.getId() == id);
+    }
+    
+    // Status operations
+    public boolean startQuest(int id) {
+        Quest quest = getQuestById(id);
+        if (quest != null && "Available".equals(quest.getStatus())) {
+            quest.setStatus("Active");
+            return true;
+        }
+        return false;
+    }
+    
+    public boolean completeQuest(int id) {
+        Quest quest = getQuestById(id);
+        if (quest != null && "Active".equals(quest.getStatus())) {
+            quest.setStatus("Completed");
+            return true;
+        }
+        return false;
+    }
+    
+    // Filtering and searching
+    public List<Quest> searchQuestsByName(String searchTerm) {
+        return quests.stream()
+                   .filter(q -> q.getName().toLowerCase().contains(searchTerm.toLowerCase()))
+                   .collect(Collectors.toList());
+    }
+    
+    public List<Quest> getQuestsByRewardRange(int minReward, int maxReward) {
+        return quests.stream()
+                   .filter(q -> {
+                       int reward = extractGoldAmount(q.getReward());
+                       return reward >= minReward && reward <= maxReward;
+                   })
+                   .collect(Collectors.toList());
+    }
+    
+    private int extractGoldAmount(String reward) {
+        try {
+            return Integer.parseInt(reward.replaceAll("[^0-9]", ""));
+        } catch (NumberFormatException e) {
+            return 0;
+        }
+    }
+    
+    // Data statistics
+    public int getTotalQuestCount() {
+        return quests.size();
+    }
+    
+    public int getCompletedQuestCount() {
+        return (int) quests.stream()
+                          .filter(q -> "Completed".equals(q.getStatus()))
+                          .count();
+    }
+    
+    public int getTotalGoldRewards() {
+        return quests.stream()
+                   .mapToInt(q -> extractGoldAmount(q.getReward()))
+                   .sum();
+    }
+}
+
+public class Quest {
+    private int id;
+    private String name;
+    private String description;
+    private String status;
+    private String reward;
+    private int difficulty;
+    
+    public Quest(int id, String name, String description, String status, String reward, int difficulty) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.status = status;
+        this.reward = reward;
+        this.difficulty = difficulty;
+    }
+    
+    // Getters and setters
+    public int getId() { return id; }
+    public String getName() { return name; }
+    public String getDescription() { return description; }
+    public String getStatus() { return status; }
+    public String getReward() { return reward; }
+    public int getDifficulty() { return difficulty; }
+    
+    public void setId(int id) { this.id = id; }
+    public void setName(String name) { this.name = name; }
+    public void setDescription(String description) { this.description = description; }
+    public void setStatus(String status) { this.status = status; }
+    public void setReward(String reward) { this.reward = reward; }
+    public void setDifficulty(int difficulty) { this.difficulty = difficulty; }
+    
+    @Override
+    public String toString() {
+        return String.format("Quest[id=%d, name=%s, status=%s]", id, name, status);
+    }
+}
