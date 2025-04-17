@@ -1,0 +1,109 @@
+import java.util.List;
+import java.util.Scanner;
+
+public class QuestListConsoleView {
+
+    private List<Quest> quests;
+    private final Scanner scanner;
+
+    public QuestListConsoleView() {
+        this.scanner = new Scanner(System.in);
+    }
+
+    public void display(List<Quest> quests) {
+        this.quests = quests;
+        clearScreen();
+        printHeader();
+        printQuestList();
+        printFooter();
+    }
+
+    private void clearScreen() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+    }
+
+    private void printHeader() {
+        System.out.println("=".repeat(50));
+        System.out.println(centerString("QUEST LIST", 50));
+        System.out.println("=".repeat(50));
+        System.out.printf("%-5s | %-20s | %-12s | %-10s%n", 
+                         "ID", "Name", "Status", "Reward");
+        System.out.println("-".repeat(50));
+    }
+
+    private void printQuestList() {
+        if (quests == null || quests.isEmpty()) {
+            System.out.println(centerString("No quests available.", 50));
+            return;
+        }
+
+        for (Quest quest : quests) {
+            String name = quest.getName().length() > 18 ? 
+                         quest.getName().substring(0, 18) : quest.getName();
+            System.out.printf("%-5d | %-20s | %-12s | %-10s%n",
+                             quest.getId(), name, 
+                             quest.getStatus(), quest.getReward());
+        }
+    }
+
+    private void printFooter() {
+        System.out.println("=".repeat(50));
+        System.out.println(centerString("Total quests: " + quests.size(), 50));
+        System.out.println("=".repeat(50));
+    }
+
+    public String getInput(String prompt) {
+        System.out.print(prompt);
+        return scanner.nextLine();
+    }
+
+    public void showMessage(String message) {
+        System.out.println(message);
+    }
+
+    private String centerString(String s, int width) {
+        if (s.length() >= width) {
+            return s;
+        }
+        int padSize = (width - s.length()) / 2;
+        return " ".repeat(padSize) + s + " ".repeat(padSize);
+    }
+
+    // Quest model class (could be in a separate file)
+    public static class Quest {
+        private final int id;
+        private final String name;
+        private final String status;
+        private final String reward;
+
+        public Quest(int id, String name, String status, String reward) {
+            this.id = id;
+            this.name = name;
+            this.status = status;
+            this.reward = reward;
+        }
+
+        public int getId() { return id; }
+        public String getName() { return name; }
+        public String getStatus() { return status; }
+        public String getReward() { return reward; }
+    }
+
+    // Example usage
+    public static void main(String[] args) {
+        QuestListConsoleView view = new QuestListConsoleView();
+        
+        List<Quest> sampleQuests = List.of(
+            new Quest(1, "Slay the Dragon", "Active", "100 Gold"),
+            new Quest(2, "Rescue the Princess", "Completed", "200 Gold"),
+            new Quest(3, "Find the Lost Artifact", "Available", "50 Gold"),
+            new Quest(4, "Defeat the Goblin King", "Failed", "0 Gold")
+        );
+        
+        view.display(sampleQuests);
+        
+        String userChoice = view.getInput("Select a quest ID or Q to quit: ");
+        view.showMessage("You selected: " + userChoice);
+    }
+}
