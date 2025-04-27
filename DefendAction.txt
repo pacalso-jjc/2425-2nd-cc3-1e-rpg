@@ -1,0 +1,19 @@
+public class DefendAction {
+    private int defensePoints;
+
+    public DefendAction(int defensePoints) {
+        this.defensePoints = defensePoints;
+    }
+
+    public void executeDefense() {
+        System.out.println("Defending with " + defensePoints + " points!");
+    }
+
+    public int getDefensePoints() {
+        return defensePoints;
+    }
+
+    public void setDefensePoints(int defensePoints) {
+        this.defensePoints = defensePoints;
+    }
+}
